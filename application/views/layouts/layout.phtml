@@ -1,0 +1,25 @@
+<-! Application / layouts / scripts / layout.phtml ->
+<? Php echo $ this -> doctype ( ) ?>
+<Html xmlns = "http://www.w3.org/1999/xhtml" >
+<head>
+  <Meta http-equiv = "Content-Type" content = "text / html; charset = UTF-8" />
+  <title> Zend Application Framework Quickstart </ title>
+  <? Php echo $ this -> headLink ( ) -> appendStylesheet ( '/ css / global.css' ) >
+</ Head>
+<body>
+<Div id = "header" style = "background-color: # EEEEEE; height: 30px;" >
+    <Div id = "header-logo" style = "float: left" >
+        <b> ZF Rápido Aplicação </ b>
+    </ Div>
+    <Div id = "header-navegação" style = "float: right" >
+        <A href = "<? php echo $ this-> url (
+            array ('controller' => 'livro de visitas'),
+            'Default',
+            true)?> " > Livro de Visitas </ a>
+    </ Div>
+</ Div>
+ 
+<? Php echo $ this -> Layout ( ) -> conteúdo >
+ 
+</ Body>
+</ Html>

@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<?php echo $this->headTitle(); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sistema de Gestão para Clínica Fisioterapêutica">
+<meta name="author" content="">
+<!-- styles -->
+<link href="<?php echo $this->baseUrl(); ?>/css/bootstrap.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/jquery-ui-1.8.16.custom.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/jquery.jqplot.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/prettify.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/elfinder.min.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/elfinder.theme.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/fullcalendar.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/js/plupupload/jquery.plupload.queue/css/jquery.plupload.queue.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/styles.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="<?php echo $this->baseUrl(); ?>/css/icons-sprite.css" rel="stylesheet">
+<link id="themes" href="<?php echo $this->baseUrl(); ?>/css/themes.css" rel="stylesheet">
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl(); ?>/css/ie/ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl(); ?>/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl(); ?>/css/ie/ie9.css" />
+<![endif]-->
+<!--fav and touch icons -->
+<link rel="shortcut icon" href="ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo $this->baseUrl(); ?>/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo $this->baseUrl(); ?>/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $this->baseUrl(); ?>/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="<?php echo $this->baseUrl(); ?>/ico/apple-touch-icon-57-precomposed.png">
+  
+  <?php echo $this->headLink(); ?>
+  <?php echo $this->headScript(); ?>
+
+</head>
+
+<body>
+  <div class="navbar navbar-fixed-top">
+  <div class="navbar-inner top-nav">
+    <div class="container">
+      <div class="branding">
+        <div class="logo"> <a href="<?php echo $this->baseUrl(); ?>"><img src="<?php echo $this->baseUrl(); ?>/img/logo.png" width="168" height="40" alt="Logo"></a> </div>
+      </div>
+      <ul class="nav pull-right">
+        <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">
+          <?php echo $this->usuario->nome_completo; ?> <span class="alert-noty">1</span><i class="white-icons admin_user"></i><b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'minhaconta'));?>"><i class="icon-briefcase"></i>Minha Conta</a></li>
+            <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'editar'));?>"><i class="icon-pencil"></i>Editar Conta</a></li>
+            <li class="divider"></li>
+            <li><a href="<?php echo $this->url(array('controller' => 'auth', 'action' => 'logout'), null, true); ?>"><i class="icon-off"></i><strong> Logout</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+      <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="nav-icon list"></i> Gerenciar <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Gerenciar Pacientes</a></li>
+              <li><a href="#">Gerenciar Alunos</a></li>
+              <li><a href="#">Gerenciar Professor</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="nav-icon cup"></i> Consultas<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Iniciar Consulta</a></li>                
+              <li><a href="#">Marcar Consulta</a></li>
+              <li><a href="#">Cancelar Consulta</a></li>
+              <li><a href="#">Consultas Pendentes</a></li>
+              <li><a href="#">Consultas Finalizadas</a></li>
+              <li class=" divider"></li>
+              <li><a href="#">#</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="nav-icon shuffle"></i>Tratamentos <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Iniciar Tratamento</a></li>
+              <li><a href="#">Consultar Tratamento</a></li>
+              <li><a href="#">Tratamentos Pendentes</a></li>
+              <li><a href="#">Tratamentos Finalizado</a></li>
+              <li class=" divider"></li>
+              <li class=" nav-header">#</li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="nav-icon cog_3"></i> Relatórios <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Relatório Tratamento</a></li>
+              <li><a href="#">Relatório Consultas</a></li>
+              <li class=" divider"></li>
+              <li class=" nav-header">#</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+<?php echo $this->layout()->content ?>
+ 
+ <!-- javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/bootstrap.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/prettify.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery.sparkline.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery.nicescroll.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/accordion.jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/smart-wizard.jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/vaidation.jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery-dynamic-form.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/fullcalendar.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/raty.jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery.noty.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery.cleditor.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/data-table.jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/TableTools.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/ColVis.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/plupload.full.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/elfinder/elfinder.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/chosen.jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/uniform.jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery.tagsinput.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery.colorbox-min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/check-all.jquery.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/inputmask.jquery.js"></script>
+<script src="http://bp.yahooapis.com/2.4.21/browserplus-min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/plupupload/jquery.plupload.queue/jquery.plupload.queue.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/excanvas.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/jquery.jqplot.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/chart/jqplot.highlighter.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/chart/jqplot.cursor.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/chart/jqplot.dateAxisRenderer.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/custom-script.js"></script>
+<!-- html5.js for IE less than 9 -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="<?php echo $this->baseUrl(); ?>/js/respond.min.js"></script>
+<script src="<?php echo $this->baseUrl(); ?>/js/ios-orientationchange-fix.js"></script>
+</body>
+</html>

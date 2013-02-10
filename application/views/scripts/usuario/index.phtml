@@ -1,0 +1,12 @@
+
+
+	<?php echo $this->id;?>
+	
+
+	<?php foreach($this->usuarios as $usuario) : ?>
+
+
+	<?php echo $this->escape($usuario->login);?>
+
+		<?php endforeach; ?>
+

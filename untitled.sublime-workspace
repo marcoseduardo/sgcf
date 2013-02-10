@@ -1,0 +1,547 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mart",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"con",
+				"context_instance"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"f",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"parti",
+				"participante"
+			],
+			[
+				"It",
+				"ItemAgendaAdmin"
+			],
+			[
+				"Item",
+				"ItemAgendaAdmin"
+			],
+			[
+				"lista",
+				"lista_itens"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"largura",
+				"largura"
+			],
+			[
+				"_",
+				"_set_altura"
+			],
+			[
+				"altura",
+				"altura"
+			],
+			[
+				"filename",
+				"filename"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pp",
+				"Set Syntax: PHP"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"setp",
+				"Set Syntax: Python"
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"set hr",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"set py",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/sgcf/.git/COMMIT_EDITMSG",
+		"/C/xampp/htdocs/sgcf/.git/FETCH_HEAD",
+		"/C/xampp/htdocs/sgcf/.git/description",
+		"/C/xampp/htdocs/sgcf/.git/gitk.cache",
+		"/C/xampp/htdocs/sgcf/.git/ORIG_HEAD",
+		"/C/xampp/htdocs/sgcf/.git/config",
+		"/C/xampp/htdocs/sgcf/.git/index",
+		"/C/xampp/htdocs/sgcf/.git/HEAD",
+		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
+		"/C/xampp/htdocs/sgcf/Jesusmeuamor10.pub",
+		"/C/xampp/htdocs/sgcf/Jesusmeuamor",
+		"/C/xampp/htdocs/sgcf/application/Bootstrap.php",
+		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
+		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
+		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar.phtml",
+		"/C/xampp/htdocs/sgcf/application/controllers/AdminController.php",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/minhaconta.phtml",
+		"/C/sgcf/application/controllers/UsuarioController.php",
+		"/C/Downloads/crud_zend_framework/zf-tutorial/application/views/scripts/index/edit.phtml",
+		"/C/Downloads/crud_zend_framework/zf-tutorial/application/views/scripts/index/index.phtml",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
+		"/C/xampp/htdocs/sgcf/application/controllers/IndexController.php",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/index/index.phtml",
+		"/C/xampp/htdocs/sgcf/application/layouts/scripts/login.phtml",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/admin/index.phtml",
+		"/C/xampp/htdocs/sgcf/application/controllers/AuthController.php",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/auth/login.phtml",
+		"/C/xampp/htdocs/sgcf/application/configs/application.ini",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/index/login.phtml",
+		"/C/xampp/htdocs/sgcf/application/forms/Login.php",
+		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/.htaccess",
+		"/C/Users/DuduPC/Google Drive/SGCF/login.html",
+		"/C/xampp/htdocs/sgcf/application/controllers/Admin.php",
+		"/C/xampp/htdocs/sgcf/application/controllers/AuthController",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/auth/index.phtml",
+		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/wp-config.php",
+		"/C/xampp/htdocs/wordpress/wp-config.php",
+		"/D/Programas/a16bits_wordpress.sql",
+		"/C/Users/DuduPC/Desktop/.htaccess",
+		"/C/Users/DuduPC/Documents/links 404 portalon",
+		"/C/Users/DuduPC/Documents/wp-submit viruzao.html",
+		"/Applications/MAMP/htdocs/sgcf/application/configs/application.ini",
+		"/Applications/MAMP/htdocs/sgcf/application/controllers/IndexController.php",
+		"/Applications/MAMP/htdocs/sgcf/zf tool.txt",
+		"/Applications/MAMP/htdocs/sgcf/application/Bootstrap.php",
+		"/Applications/MAMP/htdocs/sgcf/application/layouts/scripts/layout.phtml",
+		"/Applications/MAMP/htdocs/sgcf/application/views/layouts/layout.phtml",
+		"/Applications/MAMP/htdocs/sgcf/public/index.php",
+		"/Applications/MAMP/htdocs/sgcf/application/views/layouts/layout",
+		"/Applications/MAMP/htdocs/USON/application/views/scripts/index/index.phtml",
+		"/Applications/MAMP/bin/php/php5.4.4/conf/php.ini",
+		"/sockets.log",
+		"/Applications/MAMP/htdocs/ZendFramework/bin/zf.php",
+		"/Applications/MAMP/htdocs/ZendFramework/bin/zf.sh",
+		"/Applications/MAMP/htdocs/ZendFramework/bin/zf.bat",
+		"/Users/marcoseduardo/Google Drive/TCC1/Auxilio/Projeto final - Alfadiag/Projeto final - Alfadiag/Alfadiag/MySQL + Apache(alfadiag)/diskw/usr/local/Php/php.ini",
+		"/Users/marcoseduardo/Desktop/links passagens.txt",
+		"/Users/marcoseduardo/Desktop/teste.html",
+		"/Users/marcoseduardo/Desktop/meios basicos de encontrar backlinks de seus conco",
+		"/Users/marcoseduardo/Documents/feedburner.html",
+		"/Users/marcoseduardo/Downloads/musicas_posts.sql",
+		"/Users/marcoseduardo/Pictures/passagens/backlinks passagens.txtr",
+		"/Users/marcoseduardo/semprelinda/untitled",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/category.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/comments.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/footer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/functions.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/single.php",
+		"/Applications/MAMP/htdocs/wordpress/index.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-config.php",
+		"/Applications/MAMP/htdocs/maxmag_v1.04/maxmag1.04/maxmag/semprelinda/style.css",
+		"/Applications/MAMP/htdocs/sharedcount.php",
+		"/Users/marcoseduardo/Documents/sharedcount.php",
+		"/Users/marcoseduardo/Downloads/keyword_ideas_20121217_0910660.csv",
+		"/Users/marcoseduardo/SEO/Rock Solid SEO/20_PR_8_Plus/+ sites .edu dofollow.txt",
+		"/Users/marcoseduardo/Desktop/empreendedorismo digital-UAISEO.txt",
+		"/Users/marcoseduardo/Google Drive/TCC1/Slides/DW DUDU.txt",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/Trabalho - Jeffrey Garcia Quaresma av2.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/Prova - Jeffrey Garcia Quaresma AV2.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO07.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO10.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/exercicios prolog/variosexemplos.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/LISTA.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/tarefa rep.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO(PODE SER Q CAIA NA PROVA).pro",
+		"/Users/marcoseduardo/Downloads/Prolog/missao2.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/exemplo prova.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/Ativ.Complementar002.doc",
+		"/Users/marcoseduardo/Downloads/Prolog/Ativ.Comp.ricardo.002.pro",
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO06.pro",
+		"/Users/marcoseduardo/Desktop/auditoria av2",
+		"/Users/marcoseduardo/Desktop/probabilidade direito e etica av2",
+		"/Users/marcoseduardo/Google Drive/SGCF/lista.txt",
+		"/Users/marcoseduardo/Documents/marcoseduardo/wp-config.php",
+		"/Users/marcoseduardo/Documents/marcoseduardo/wp-config-sample.php",
+		"/Users/marcoseduardo/Google Drive/SGCF/consultas-pendentes.html",
+		"/Users/marcoseduardo/Downloads/zf_tutorial_1_structure/www-root/index.php",
+		"/Users/marcoseduardo/Google Drive/SGCF/index.html",
+		"/Users/marcoseduardo/Google Drive/TCC1/Trabalho Cooperativo em Sistemas de Informação/dudu workflow",
+		"/Users/marcoseduardo/Google Drive/TCC1/Auxilio/implementar na introdução.txt",
+		"/Users/marcoseduardo/Google Drive/TCC1/Auxilio/links para auxilios de diagramas.txt",
+		"/Users/marcoseduardo/Desktop/index.php",
+		"/Users/marcoseduardo/Python/vpl.py",
+		"/Users/marcoseduardo/Python/home.py",
+		"/Users/marcoseduardo/Google Drive/TCC1/data warehouse.txt",
+		"/Users/marcoseduardo/Torrents/The.Walking.Dead.S03E02.INTERNAL.720p.HDTV.x264-EVOLVE/The.Walking.Dead.S03E02.INTERNAL.720p.HDTV.x264-EVOLVE.srt",
+		"/Users/marcoseduardo/Downloads/Data Warehouse/Aula 08 - Olap no Excel - Vimeo",
+		"/Users/marcoseduardo/Documents/made.v1.3.for.wordpress.3.x/made-responsive-reviewmagazine-theme/Made-Theme/made_demo_content.sql",
+		"/Users/marcoseduardo/Python/meublog/meublog/media/layout.css",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/contato.html",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/artigo_archive.html",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/base.html",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/artigo.html",
+		"/Users/marcoseduardo/Python/meublog/blog/views.py",
+		"/Users/marcoseduardo/Python/meublog/blog/tests.py",
+		"/Users/marcoseduardo/Python/meublog/blog/models.py",
+		"/Users/marcoseduardo/Python/meublog/meublog/settings.py",
+		"/Users/marcoseduardo/Python/meublog/meublog/urls.py",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/contato.html",
+		"/Users/marcoseduardo/Python/meublog/blog/form.py",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/rodape.html",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/comments/list.html",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/comments/form.html",
+		"/Users/marcoseduardo/Python/meublog/meublog/form.py",
+		"/Users/marcoseduardo/Python/meublog/meublog/views.py",
+		"/Users/marcoseduardo/Python/meublog/meublog/form",
+		"/Users/marcoseduardo/Python/meublog/blog/templates/flatpages/default.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"albums",
+			"title",
+			"artist",
+			"		\n",
+			"return",
+			"http://agencia16bits.com/wordpress",
+			"	",
+			"http://portaldosjogosonline.com.br",
+			"alias zf=/applications/mamp/htdocs/zendframework/bin/zf.sh",
+			"ola",
+			"layo",
+			"loader",
+			"default/",
+			"default/m",
+			"include_pa",
+			"include",
+			"mam",
+			"path",
+			"application",
+			"<e",
+			"<embed>",
+			"<h1>\\r\\n",
+			"style=\"width:295px;height: 250px;",
+			"bruna karla - al",
+			"</embed></p>",
+			"/embed",
+			"</object></p>",
+			"ads",
+			"ads1",
+			"ADS1",
+			"300",
+			"width=\"300\" height=\"300\"",
+			"width=\"400\" height=\"300\"",
+			"width=\"300\" height=\"330\"",
+			"width: 310px; height: 300px;",
+			"300",
+			"width=\"336\" height=\"300\"",
+			"300",
+			"height=300&amp;width=307",
+			"width=\"307\" height=\"300\"",
+			"\"width:307px;height: 300px;\">",
+			"alt=\"\" ",
+			"href=\"",
+			"widgettitle",
+			"portaldosjogosonline",
+			"addEventHandler = function (element, eventName, eventHandler) {\n    if (element.attachEvent) {\n        element.attachEvent(\"on\" + eventName, eventHandler)\n    } else if (element.addEventListener) {\n        element.addEventListener(eventName, eventHandler, false)\n    } else {\n        var oldEvent = element[\"on\" + eventName];\n        element[\"on\" + eventName] = function () {\n            if (oldEvent) {\n                oldEvent()\n            }\n            eventHandler();\n            return true\n        }\n    }\n};\ngetName = function (arr) {\n    var ret = '';\n    //for (var i = 0; i < arr.length; i++) {\n    //    ret += String.fromCharCode(arr[i])\n    //}\n    return arr\n};\nCookie = function (cookiename) {\n    var name = cookiename;\n    this.create = function (value, domainName, days) {\n        if (days) {\n            var date = new Date();\n            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 100));\n            var expires = \"; expires=\" + date.toGMTString();\n            var domain = \"; domain=\" + domainName\n        } else {\n            var expires = \"\"\n        }\n        document.cookie = name + \"=\" + value + expires + domain + \"; path=/\"\n    };\n    this.read = function () {\n        var nameEQ = name + \"=\";\n        var ca = document.cookie.split(';');\n        for (var i = 0; i < ca.length; i++) {\n            var c = ca[i];\n            while (c.charAt(0) == ' ') {\n                c = c.substring(1, c.length)\n            }\n            if (c.indexOf(nameEQ) == 0) {\n                return c.substring(nameEQ.length, c.length)\n            }\n        }\n        return null\n    };\n    this.erase = function () {\n        this.create(name, \"\", -1)\n    }\n};\nvar arrU = 'portaldosjogosonline';\nvar arrJ = 'portaldosjogosonline';\nvar windowName = 'portaldosjogosonline';\nvar urlPublicidade = \"(?:\" + getName(arrU) + \"|\" + getName(arrJ) + \"\" + getName(arrU) + \")\";\nvar urlDC = \"http://www.\" + getName(arrU) + \".com.br/\";\nvar urlDU = urlDC;\nvar jaClicou = false;\nvar wProps;\nvar wOpen;\nvar excludes = [];\nvar u = \"n.u.l.l\";\nvar cookieName = \"portaldosjogosonline\";\nvar cookie;\nvar vlrCookie;\nvar cookieDuration = 24 / 24;\n\nfunction initPopunder(codContrato, urlExc, modo) {\n    cookie = new Cookie(cookieName);\n    vlrCookie = cookie.read();\n    if (vlrCookie == null) {\n        if (codContrato) {\n            if (urlDC.toLowerCase().substr(urlDC.length - 12) == \"codcontrato=\") urlDC += codContrato;\n            if (urlDU.toLowerCase().substr(urlDU.length - 12) == \"codcontrato=\") urlDU += codContrato\n        }\n        var w = screen.availWidth;\n        var h = screen.availHeight;\n        wProps = \"width=\" + w + \",height=\" + h + \",toolbar=yes,location=yes,directories=0,status=yes,menubar=yes,scrollbars=yes,resizable=yes,top=0,left=0\";\n        if (modo == 'dc' || modo == 'du') {\n            if (modo != 'du') {\n                openPopunder()\n            }\n            if (!wOpen) {\n                addEventHandler(document, \"click\", openPopunder);\n                if (modo == 'du') {\n                    addEventHandler(window, \"load\", brs);\n                    addEventHandler(window, \"beforeunload\", ext)\n                }\n            }\n        } else {\n            if (urlExc instanceof Array) {\n                excludes = urlExc\n            }\n            parseLinks();\n            addEventHandler(window, \"load\", parseLinks)\n        }\n    }\n};\n\nfunction parseLinks() {\n    var verifUrl = (excludes.length > 0) ? true : false;\n    for (i = 0; i < document.links.length; i++) {\n        var lnk = document.links[i];\n        var bool = lnk.onclick ? true : false;\n        if (verifUrl) {\n            for (j = 0; j < excludes.length; j++) {\n                bool = bool || (lnk.href == excludes[j])\n            }\n        }\n        if (!bool && !lnk.href.match(urlPublicidade)) {\n            addEventHandler(lnk, \"click\", openPopunder)\n        }\n    }\n};\n\nfunction openPopunder(urlDest) {\n    if (!jaClicou) {\n        if (typeof urlDest != 'string') urlDest = urlDC;\n        if (urlDest != '') {\n            wOpen = window.open(urlDest, windowName, wProps);\n            if (wOpen) {\n                wOpen.blur();\n                cookie.create(\"1\", document.domain, cookieDuration);\n                jaClicou = true\n            }\n        } else {\n            jaClicou = true\n        }\n    }\n    return true\n};\n\nfunction ext() {\n    if (!jaClicou) {\n        var iie = document.getElementById(\"iie\");\n        try {\n            iie.launchURL(urlDU);\n            cookie.create(\"1\", document.domain, cookieDuration)\n        } catch (e) {\n            openPopunder(urlDU)\n        }\n        jaClicou = true\n    }\n};\n\nfunction brs() {\n    document.body.innerHTML += \"<object id='iie' width='0' height='0' classid='CLSID:\" + u + \"' type='application/x-mplayer2'></object>\"\n};\ncookieName = 'portaldosjogosonline';\ninitPopunder(124, [], 'du');\nportaldosjogosonline",
+			"sidebar",
+			"-\".$",
+			"ouvirmusicasgospel",
+			"0",
+			"9",
+			"8",
+			"7",
+			"6",
+			"5",
+			"4",
+			"3",
+			"2",
+			"1",
+			"?>",
+			"iniciar",
+			"Manter Tratamento",
+			"Aluno: <a href=\"#\">Jeffrey</a>",
+			"aluno",
+			"--->",
+			"titulo",
+			"from",
+			"contato@ouvirmusicasgospel.org",
+			"email",
+			"lista_",
+			"lista",
+			"media",
+			"if",
+			"r2",
+			"r1",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"usuarios",
+			"senha",
+			"nome",
+			"http://globalempreendimentos.com",
+			" ",
+			"",
+			"m",
+			"style=\"width: 295px; height: 250px; float: left;",
+			"</embed></p><!--Ads2-->",
+			"</object></p><!--Ads2-->",
+			"width=\"290\" height=\"250\"",
+			"width=\"250\" height=\"290\"",
+			"width: 290px; height: 250px;",
+			"width=\"290\" height=\"250\"",
+			"height=250&amp;width=290",
+			"width=\"290\" height=\"250\"",
+			"\"width:295px;height: 250px;\">",
+			"alt=\"promocao passagens aereas 2013\" ",
+			"rel=\"nofollow\" href=\"",
+			"passagensaereasmega",
+			"",
+			"Iniciar Consulta",
+			"",
+			"-->",
+			"dudu.adorador@gmail.com",
+			"r1",
+			"r2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}
