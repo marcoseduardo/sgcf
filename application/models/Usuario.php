@@ -23,7 +23,7 @@
 
 		public function editarUsuario($id, $nome, $senha)
 	    {
-	        $data = array('nome_completo' => $nome);
+	        $data = array('nome_completo' => $nome, 'senha'=> $senha);
 	        $this->update($data, 'id = ' . (int) $id);
 	    }
 		 public function setRole($role)

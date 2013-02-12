@@ -24,7 +24,7 @@ class My_Acl extends Zend_Acl
         $this->allow('guest', 'error');
         $this->allow('guest', 'auth');
         $this->allow('guest', 'index');
-       // $this->allow('guest', 'Usuario');
+        $this->allow('guest', 'Usuario');
         $this->allow('guest', 'admin');
         // Allow users to access logout and the index action from the user controller
         $this->allow('user', 'auth');

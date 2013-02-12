@@ -48,10 +48,19 @@ class UsuarioController extends Zend_Controller_Action
             if ($form->isValid($formData)) {
                 $id = $usuario->id;
                 $nome = $form->getValue('nome_completo');
-                $senha = $form->getValue('senha');
+                $senha = sha1($form->getValue('senha'));
+
+ 
                 $usuarios = new Model_Usuario();
                 $usuarios->editarUsuario($id, $nome, $senha);
-                $this->_helper->redirector('index');
+                
+                //redireciona pra Action Index
+                //$this->_helper->redirector('index');
+
+               //redireciona pro controller admin     
+               return $this->_helper->redirector->goToRoute( array('controller' => 'admin'), null, true);
+
+
             } else {
                 $form->populate($formData);
             }

@@ -1,3 +1,5 @@
 zf tool
 
 alias zf=/applications/mamp/htdocs/zendframework/bin/zf.sh
+
+teste
