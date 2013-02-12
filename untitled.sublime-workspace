@@ -216,6 +216,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/index.php",
+		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/styles/style.css",
+		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/header.php",
+		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/config.php",
 		"/C/xampp/htdocs/sgcf/.git/COMMIT_EDITMSG",
 		"/C/xampp/htdocs/sgcf/.git/FETCH_HEAD",
 		"/C/xampp/htdocs/sgcf/.git/description",
@@ -339,11 +343,7 @@
 		"/Users/marcoseduardo/Python/meublog/blog/form.py",
 		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/rodape.html",
 		"/Users/marcoseduardo/Python/meublog/blog/templates/comments/list.html",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/comments/form.html",
-		"/Users/marcoseduardo/Python/meublog/meublog/form.py",
-		"/Users/marcoseduardo/Python/meublog/meublog/views.py",
-		"/Users/marcoseduardo/Python/meublog/meublog/form",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/flatpages/default.html"
+		"/Users/marcoseduardo/Python/meublog/blog/templates/comments/form.html"
 	],
 	"find":
 	{

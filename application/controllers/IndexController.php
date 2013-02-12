@@ -33,8 +33,11 @@ class IndexController extends Zend_Controller_Action
 
         $usuario = Zend_Auth::getInstance()->getIdentity();
         $this->view->usuario = $usuario;
+    }
 
-
+    public function semacessoAction(){
+        
+        
 
     }
 

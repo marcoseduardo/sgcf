@@ -56,6 +56,12 @@ public function init()
                 $info = $authAdapter->getResultRowObject(null, 'senha');
                 $storage = $auth->getStorage();
                 $storage->write($info);
+                $mysession = new Zend_Session_Namespace('mysession');
+                if(isset($mysession->destination_url)) {
+                        $url = $mysession->destination_url;
+                        unset($mysession->destination_url);
+                        $this->_redirect($url);
+                    }
                 //Redireciona para o Controller protegido
                 return $this->_helper->redirector->goToRoute( array('controller' => 'admin'), null, true);
             } else {

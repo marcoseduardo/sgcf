@@ -6,6 +6,8 @@
 
 		protected $_name = 'usuario';
 		protected $_primary = 'id';
+		protected $_role;
+
 
 		public function getUsuario($id){
 
@@ -24,7 +26,17 @@
 	        $data = array('nome_completo' => $nome);
 	        $this->update($data, 'id = ' . (int) $id);
 	    }
-		
+		 public function setRole($role)
+	    {
+	        $this->_role = (string) $role;
+	 
+	        return $this;
+	    }
+	 
+	    public function getRole()
+	    {
+	        return $this->_role;
+	    }
 
 
 }
