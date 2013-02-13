@@ -1,12 +1,74 @@
 
-
-	<?php echo $this->id;?>
-	
-
-	<?php foreach($this->usuarios as $usuario) : ?>
-
-
-	<?php echo $this->escape($usuario->login);?>
-
-		<?php endforeach; ?>
-
+<div class="span6" style="width:720px;">
+  <div class="widget-block">
+    <div class="widget-head">
+      <h5><i class="black-icons users"></i>Usuários</h5>
+      <div class="widget-control pull-right"> <a href="#" data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'adicionar'));?>"><i class="icon-plus"></i> Adicionar Usuário</a></li>
+          <li><a href="#"><i class="icon-remove"></i> Remover Usuário</a></li>
+          <li><a href="#"><i class="icon-pencil"></i> Editar Usuário</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="widget-content">
+      <div class="widget-searchbox">
+        <ul>
+          <li class="row-counts"></li>
+          <li class="right">
+            <form action="#" method="get">
+              <div class="input-prepend"> <span class="add-on"><i class="icon-search"></i></span>
+                <input type="text" class="span2">
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+      <div class="widget-box">
+        <table class="table user-tbl">
+          <thead>
+            <tr>
+                </th>
+              <th class="center"> ID </th>
+              <th class="center"> Usuário </th>
+              <th> Nome </th>
+              <th> Info </th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php foreach($this->usuarios as $usuario) : ?>
+            <tr>
+              <td class="center"><?php echo $this->escape($usuario->id);?></td>
+              <td class="center"><span class="user-position"><?php echo $this->escape($usuario->tipo);?></span></td>
+              <td><strong><?php echo $this->escape($usuario->nome_completo);?></strong></td>
+              <td><div class="btn-group pull-right" style=" float: center; ">
+                  <button data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'minhaconta', 'id'=>$usuario->id));?>"><i class="icon-file"></i> Ver Detalhes</a></li>
+                    <li><a href="#"><i class="icon-edit"></i> Edit Profile</a></li>
+                    <li><a href="#"><i class="icon-trash"></i> Remove User</a></li>
+                    <li><a href="#"><i class="icon-share-alt"></i> Send Mesage</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class="icon-minus-sign"></i> Suspend User</a></li>
+                  </ul>
+                </div></td>
+            </tr>
+            <?php endforeach; ?>
+          </tbody>
+        </table>
+      </div>
+      <div class="widget-bottom">
+        <div class="pagination">
+          <ul>
+            <li><a href="#">Prev</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

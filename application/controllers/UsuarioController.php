@@ -32,8 +32,41 @@ class UsuarioController extends Zend_Controller_Action
 		//criando o objeto 
 		$usuarios = new Model_Usuario();
 		//enviando para a view o ususario logado, passando a id direto na função
-		$this->view->user = $usuarios->getUsuario($usuario->id);
+
+            $id = $this->_getParam('id', 0);
+            if ($id > 0) {
+            $this->view->user = $usuarios->getUsuario($id);
+            }else{    
+            $this->view->user = $usuarios->getUsuario($usuario->id);
+}
+              
+
+
 	}
+
+    public function adicionarAction()
+    {
+        $form = new Form_adicionarUsuario();
+        $form->submit->setLabel('Adicionar');
+        $this->view->form = $form;
+        if ($this->getRequest()->isPost()) {
+            $formData = $this->getRequest()->getPost();
+            if ($form->isValid($formData)) {
+                
+                $login = $form->getValue('login');
+                $senha = sha1($form->getValue('senha'));
+                $nome_completo = $form->getValue('nome_completo');
+                $tipo = $form->getValue('tipo');
+
+                $usuario = new Model_Usuario();
+                
+                $usuario->adicionarUsuario($login,$nome_completo, $senha, $tipo);
+                $this->_helper->redirector('index');
+            } else {
+                $form->populate($formData);
+            }
+        }
+    }
 
 	public function editarAction(){
 

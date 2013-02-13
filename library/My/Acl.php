@@ -4,12 +4,11 @@ class My_Acl extends Zend_Acl
 {
     public function __construct()
     {
-        // Add a new role called "guest"
-        $this->addRole(new Zend_Acl_Role('guest'));
-        // Add a role called user, which inherits from guest
-        $this->addRole(new Zend_Acl_Role('user'), 'guest');
-        // Add a role called admin, which inherits from user
-        $this->addRole(new Zend_Acl_Role('admin'), 'user');
+        // Add a new role called "aluno"
+        $this->addRole(new Zend_Acl_Role('aluno'));
+        // Add a role called professor, which inherits from aluno
+        $this->addRole(new Zend_Acl_Role('professor'), 'aluno');
+        // Add a role called admin, which inherits from professor
  
         // Add some resources in the form controller::action
         $this->add(new Zend_Acl_Resource('error'));
@@ -20,19 +19,17 @@ class My_Acl extends Zend_Acl
 
         $this->add(new Zend_Acl_Resource('index'));
  
-        // Allow guests to see the error, login and index pages
-        $this->allow('guest', 'error');
-        $this->allow('guest', 'auth');
-        $this->allow('guest', 'index');
-        $this->allow('guest', 'Usuario');
-        $this->allow('guest', 'admin');
-        // Allow users to access logout and the index action from the user controller
-        $this->allow('user', 'auth');
-        //$this->allow('user', 'admin');
+        // Allow alunos to see the error, login and index pages
+        $this->allow('aluno', 'error');
+        $this->allow('aluno', 'auth');
+        $this->allow('aluno', 'index');
+        $this->allow('aluno', 'Usuario');
+        $this->allow('aluno', 'admin');
+        // Allow professors to access logout and the index action from the professor controller
+        //$this->allow('professor', 'auth');
+        //$this->allow('professor', 'admin');
         // Allow admin to access admin controller, index action
-        $this->allow('admin', 'admin');
-        $this->allow('admin', 'Usuario');
- 
+        
         // You will add here roles, resources and authorization specific to your application, the above are some examples
     }
 }

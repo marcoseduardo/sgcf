@@ -2,7 +2,7 @@
 // library/My/Controller/Plugin/ACL.php
 class My_Controller_Plugin_ACL extends Zend_Controller_Plugin_Abstract
 {
-    protected $_defaultRole = 'guest';
+    protected $_defaultRole = 'aluno';
  
     public function preDispatch(Zend_Controller_Request_Abstract $request)
     {

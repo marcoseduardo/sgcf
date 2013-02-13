@@ -127,12 +127,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 150.0,
 		"selected_items":
 		[
 			[
 				"php",
 				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
 			],
 			[
 				"inst",
@@ -149,10 +153,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
 			],
 			[
 				"javascr",
@@ -199,7 +199,7 @@
 				"Set Syntax: Python"
 			]
 		],
-		"width": 512.0
+		"width": 636.0
 	},
 	"console":
 	{
@@ -216,6 +216,30 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/sgcf/library/My/Acl.php",
+		"/C/xampp/htdocs/sgcf/library/My/Controller/Plugin/ACL.php",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/adicionar.phtml",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar.phtml",
+		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario",
+		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario.php",
+		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
+		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
+		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/minhaconta.phtml",
+		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
+		"/C/xampp/htdocs/zf-tutorial/application/configs/application.ini",
+		"/C/xampp/htdocs/sgcf/application/forms/Login.php",
+		"/C/Downloads/crud_zend_framework/zf-tutorial/application/views/scripts/index/add.phtml",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/index/semacesso.phtml",
+		"/C/xampp/htdocs/sgcf/application/controllers/IndexController.php",
+		"/C/xampp/htdocs/sgcf/application/Bootstrap.php",
+		"/C/xampp/htdocs/sgcf/library/My/ACL.php",
+		"/C/xampp/htdocs/sgcf/comandos git.txt",
+		"/C/Users/DuduPC/Documents/GitHub/sgcf/zf tool.txt",
+		"/C/xampp/htdocs/sgcf/zf tool.txt",
+		"/C/xampp/htdocs/sgcf/application/controllers/AuthController.php",
+		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/admin/users.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/index.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/styles/style.css",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/header.php",
@@ -228,29 +252,18 @@
 		"/C/xampp/htdocs/sgcf/.git/config",
 		"/C/xampp/htdocs/sgcf/.git/index",
 		"/C/xampp/htdocs/sgcf/.git/HEAD",
-		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
 		"/C/xampp/htdocs/sgcf/Jesusmeuamor10.pub",
 		"/C/xampp/htdocs/sgcf/Jesusmeuamor",
-		"/C/xampp/htdocs/sgcf/application/Bootstrap.php",
-		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
-		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
-		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar.phtml",
 		"/C/xampp/htdocs/sgcf/application/controllers/AdminController.php",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/minhaconta.phtml",
 		"/C/sgcf/application/controllers/UsuarioController.php",
 		"/C/Downloads/crud_zend_framework/zf-tutorial/application/views/scripts/index/edit.phtml",
 		"/C/Downloads/crud_zend_framework/zf-tutorial/application/views/scripts/index/index.phtml",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
-		"/C/xampp/htdocs/sgcf/application/controllers/IndexController.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/index/index.phtml",
 		"/C/xampp/htdocs/sgcf/application/layouts/scripts/login.phtml",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/admin/index.phtml",
-		"/C/xampp/htdocs/sgcf/application/controllers/AuthController.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/auth/login.phtml",
 		"/C/xampp/htdocs/sgcf/application/configs/application.ini",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/index/login.phtml",
-		"/C/xampp/htdocs/sgcf/application/forms/Login.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/.htaccess",
 		"/C/Users/DuduPC/Google Drive/SGCF/login.html",
 		"/C/xampp/htdocs/sgcf/application/controllers/Admin.php",
@@ -330,20 +343,7 @@
 		"/Users/marcoseduardo/Downloads/Data Warehouse/Aula 08 - Olap no Excel - Vimeo",
 		"/Users/marcoseduardo/Documents/made.v1.3.for.wordpress.3.x/made-responsive-reviewmagazine-theme/Made-Theme/made_demo_content.sql",
 		"/Users/marcoseduardo/Python/meublog/meublog/media/layout.css",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/contato.html",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/artigo_archive.html",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/base.html",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/artigo.html",
-		"/Users/marcoseduardo/Python/meublog/blog/views.py",
-		"/Users/marcoseduardo/Python/meublog/blog/tests.py",
-		"/Users/marcoseduardo/Python/meublog/blog/models.py",
-		"/Users/marcoseduardo/Python/meublog/meublog/settings.py",
-		"/Users/marcoseduardo/Python/meublog/meublog/urls.py",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/contato.html",
-		"/Users/marcoseduardo/Python/meublog/blog/form.py",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/rodape.html",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/comments/list.html",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/comments/form.html"
+		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/contato.html"
 	],
 	"find":
 	{
@@ -351,7 +351,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -361,6 +361,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gender",
+			"‘",
+			"title",
+			"artist",
+			"user",
+			"guest",
+			"$login",
+			"        \n",
 			"albums",
 			"title",
 			"artist",
@@ -444,6 +452,13 @@
 		"regex": true,
 		"replace_history":
 		[
+			"tipo",
+			"'",
+			"nome_completo",
+			"login",
+			"professor",
+			"aluno",
+			"$nome",
 			"usuarios",
 			"senha",
 			"nome",

@@ -26,6 +26,15 @@
 	        $data = array('nome_completo' => $nome, 'senha'=> $senha);
 	        $this->update($data, 'id = ' . (int) $id);
 	    }
+
+
+	     public function adicionarUsuario ($login, $nome_completo, $senha, $tipo)
+    {
+        $data = array('login' => $login, 'nome_completo' => $nome_completo, 'senha' => $senha, 'tipo' => $tipo, 'role' => $tipo) ;
+        $this->insert($data);
+    }
+
+
 		 public function setRole($role)
 	    {
 	        $this->_role = (string) $role;
