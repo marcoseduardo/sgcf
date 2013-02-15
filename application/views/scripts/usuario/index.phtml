@@ -46,8 +46,10 @@
                   <ul class="dropdown-menu">
                     <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'minhaconta', 'id'=>$usuario->id),null,true );
                     ?>"><i class="icon-file"></i> Ver Detalhes</a></li>
-                    <li><a href="#"><i class="icon-edit"></i> Edit Profile</a></li>
-                    <li><a href="#"><i class="icon-trash"></i> Remove User</a></li>
+                    <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'editar-conta', 'id'=>$usuario->id),null,true );
+                    ?>"><i class="icon-edit"></i> Editar Conta</a></li>
+                    <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'remover', 'id'=>$usuario->id),null,true );
+                    ?>"><i class="icon-trash"></i> Remover Usuário</a></li>
                     <li><a href="#"><i class="icon-share-alt"></i> Send Mesage</a></li>
                     <li class="divider"></li>
                     <li><a href="#"><i class="icon-minus-sign"></i> Suspend User</a></li>

@@ -1,0 +1,10 @@
+<?php $this->headTitle()->prepend('Remover Usuário'); ?>
+
+<p>Tem certeza de que deseja apagar <?php echo $this->escape($this->user['nome_completo']);?> ?</p>
+
+<form action="<?php echo $this->url(array('action' => 'remover'));?>" method="post">
+	<div>
+		<input type="hidden" name="id" value="<?php echo $this->user['id'];?>" /> 
+		<input type="submit" name="del" value="Sim" /> <input type="submit" name="del" value="Não" />
+	</div>
+</form>

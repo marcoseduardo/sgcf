@@ -216,28 +216,30 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar-conta.phtml",
+		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario.php",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
+		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
+		"/C/xampp/htdocs/sgcf/application/Bootstrap.php",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/remover.phtml",
+		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
+		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
 		"/C/Users/DuduPC/Desktop/musicas_posts.sql",
 		"/C/Users/DuduPC/Desktop/ouvirmusicasgospel.org.db",
 		"/C/Users/DuduPC/Desktop/wp-config.php",
 		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
 		"/C/Users/DuduPC/Desktop/ouvirmus_video_app.sql",
 		"/C/xampp/htdocs/sgcf/library/My/Acl.php",
 		"/C/xampp/htdocs/sgcf/library/My/Controller/Plugin/ACL.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/adicionar.phtml",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar.phtml",
 		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario",
-		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario.php",
-		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
-		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/minhaconta.phtml",
-		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
 		"/C/xampp/htdocs/zf-tutorial/application/configs/application.ini",
 		"/C/xampp/htdocs/sgcf/application/forms/Login.php",
 		"/C/Downloads/crud_zend_framework/zf-tutorial/application/views/scripts/index/add.phtml",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/index/semacesso.phtml",
 		"/C/xampp/htdocs/sgcf/application/controllers/IndexController.php",
-		"/C/xampp/htdocs/sgcf/application/Bootstrap.php",
 		"/C/xampp/htdocs/sgcf/library/My/ACL.php",
 		"/C/xampp/htdocs/sgcf/comandos git.txt",
 		"/C/Users/DuduPC/Documents/GitHub/sgcf/zf tool.txt",
@@ -341,9 +343,7 @@
 		"/Users/marcoseduardo/Google Drive/TCC1/Auxilio/links para auxilios de diagramas.txt",
 		"/Users/marcoseduardo/Desktop/index.php",
 		"/Users/marcoseduardo/Python/vpl.py",
-		"/Users/marcoseduardo/Python/home.py",
-		"/Users/marcoseduardo/Google Drive/TCC1/data warehouse.txt",
-		"/Users/marcoseduardo/Torrents/The.Walking.Dead.S03E02.INTERNAL.720p.HDTV.x264-EVOLVE/The.Walking.Dead.S03E02.INTERNAL.720p.HDTV.x264-EVOLVE.srt"
+		"/Users/marcoseduardo/Python/home.py"
 	],
 	"find":
 	{
@@ -361,6 +361,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"album",
 			"style=\"width: 295px; height: 250px; float: left;\"",
 			"echo",
 			"echo $this->url",
@@ -457,6 +458,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"usuario",
 			"class=\"player\" ",
 			"tipo",
 			"'",

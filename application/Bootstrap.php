@@ -27,8 +27,10 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
             'basePath' => APPLICATION_PATH,
             'namespace' => ''
     ));
+    
         $usuario = Zend_Auth::getInstance()->getIdentity();
         $this->view->usuario = $usuario;
+
     return $autoloader;
     
 }
