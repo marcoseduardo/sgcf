@@ -5,7 +5,7 @@
       <h5><i class="black-icons users"></i>Usuários</h5>
       <div class="widget-control pull-right"> <a href="#" data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'adicionar'));?>"><i class="icon-plus"></i> Adicionar Usuário</a></li>
+          <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'adicionar'),null,true);?>"><i class="icon-plus"></i> Adicionar Usuário</a></li>
           <li><a href="#"><i class="icon-remove"></i> Remover Usuário</a></li>
           <li><a href="#"><i class="icon-pencil"></i> Editar Usuário</a></li>
         </ul>
@@ -44,7 +44,8 @@
               <td><div class="btn-group pull-right" style=" float: center; ">
                   <button data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><span class="caret"></span></button>
                   <ul class="dropdown-menu">
-                    <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'minhaconta', 'id'=>$usuario->id));?>"><i class="icon-file"></i> Ver Detalhes</a></li>
+                    <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'minhaconta', 'id'=>$usuario->id),null,true );
+                    ?>"><i class="icon-file"></i> Ver Detalhes</a></li>
                     <li><a href="#"><i class="icon-edit"></i> Edit Profile</a></li>
                     <li><a href="#"><i class="icon-trash"></i> Remove User</a></li>
                     <li><a href="#"><i class="icon-share-alt"></i> Send Mesage</a></li>

@@ -216,6 +216,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/DuduPC/Desktop/musicas_posts.sql",
+		"/C/Users/DuduPC/Desktop/ouvirmusicasgospel.org.db",
+		"/C/Users/DuduPC/Desktop/wp-config.php",
+		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
+		"/C/Users/DuduPC/Desktop/ouvirmus_video_app.sql",
 		"/C/xampp/htdocs/sgcf/library/My/Acl.php",
 		"/C/xampp/htdocs/sgcf/library/My/Controller/Plugin/ACL.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/adicionar.phtml",
@@ -224,8 +230,6 @@
 		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario.php",
 		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
 		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
-		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/minhaconta.phtml",
 		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
 		"/C/xampp/htdocs/zf-tutorial/application/configs/application.ini",
@@ -339,11 +343,7 @@
 		"/Users/marcoseduardo/Python/vpl.py",
 		"/Users/marcoseduardo/Python/home.py",
 		"/Users/marcoseduardo/Google Drive/TCC1/data warehouse.txt",
-		"/Users/marcoseduardo/Torrents/The.Walking.Dead.S03E02.INTERNAL.720p.HDTV.x264-EVOLVE/The.Walking.Dead.S03E02.INTERNAL.720p.HDTV.x264-EVOLVE.srt",
-		"/Users/marcoseduardo/Downloads/Data Warehouse/Aula 08 - Olap no Excel - Vimeo",
-		"/Users/marcoseduardo/Documents/made.v1.3.for.wordpress.3.x/made-responsive-reviewmagazine-theme/Made-Theme/made_demo_content.sql",
-		"/Users/marcoseduardo/Python/meublog/meublog/media/layout.css",
-		"/Users/marcoseduardo/Python/meublog/blog/templates/blog/contato.html"
+		"/Users/marcoseduardo/Torrents/The.Walking.Dead.S03E02.INTERNAL.720p.HDTV.x264-EVOLVE/The.Walking.Dead.S03E02.INTERNAL.720p.HDTV.x264-EVOLVE.srt"
 	],
 	"find":
 	{
@@ -351,7 +351,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -361,6 +361,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"style=\"width: 295px; height: 250px; float: left;\"",
+			"echo",
+			"echo $this->url",
+			"$this->url(",
+			"$this->url",
 			"gender",
 			"‘",
 			"title",
@@ -452,6 +457,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"class=\"player\" ",
 			"tipo",
 			"'",
 			"nome_completo",
