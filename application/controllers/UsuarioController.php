@@ -110,7 +110,7 @@ class UsuarioController extends Zend_Controller_Action
     {
         if ($this->getRequest()->isPost()) {
             $del = $this->getRequest()->getPost('del');
-            if ($del == 'Yes') {
+            if ($del == 'Sim') {
                 $id = $this->getRequest()->getPost('id');
                 $usuarios = new Model_Usuario();
                 $usuarios->removerUsuario($id);
