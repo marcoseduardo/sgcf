@@ -127,15 +127,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 150.0,
+		"height": 196.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
 			[
 				"php",
 				"Set Syntax: PHP"
 			],
 			[
-				"html",
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"htm",
 				"Set Syntax: HTML"
 			],
 			[
@@ -163,16 +171,8 @@
 				"Set Syntax: Java"
 			],
 			[
-				"css",
-				"Set Syntax: CSS"
-			],
-			[
 				"pp",
 				"Set Syntax: PHP"
-			],
-			[
-				"htm",
-				"Set Syntax: HTML"
 			],
 			[
 				"setp",
@@ -199,7 +199,7 @@
 				"Set Syntax: Python"
 			]
 		],
-		"width": 636.0
+		"width": 440.0
 	},
 	"console":
 	{
@@ -216,6 +216,23 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/sgcf/application/configs/application.ini",
+		"/C/xampp/htdocs/sgcf/application/modules/kosearch-master/controllers/search_example.php",
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveis2/single-imoveis.php",
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveis2/search-imoveis.php",
+		"/C/xampp/htdocs/sgcf/application/modules/kosearch/views/search_example.php",
+		"/C/xampp/htdocs/sgcf/library/My/Acl.php",
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveisglobal/single-imoveis.php",
+		"/C/Users/DuduPC/Desktop/wp-config-sample.php",
+		"/C/Users/DuduPC/Desktop/ufc TV.html",
+		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/classes/pagination_helper.php",
+		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/classes/user.class.php",
+		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/ajax.php",
+		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/cron.php",
+		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/index.php",
+		"/C/Users/DuduPC/Desktop/page.css",
+		"/C/Users/DuduPC/Desktop/wp-pass.php",
+		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
 		"/C/Users/DuduPC/Desktop/base.css",
 		"/C/Users/DuduPC/Desktop/framework.css",
 		"/C/Downloads/Software/LeagueofLegends.exe",
@@ -223,21 +240,18 @@
 		"/C/Users/DuduPC/AppData/Local/Temp/scp37938/.apps/http/__default__/0/1.0-zdc/public/.htaccess",
 		"/C/Users/DuduPC/Documents/GitHub/container-root/public/.htaccess",
 		"/C/Users/DuduPC/Downloads/zendcloud-marcosjunior.ppk",
-		"/C/Users/DuduPC/Desktop/ufc TV.html",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar-conta.phtml",
 		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
 		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
 		"/C/xampp/htdocs/sgcf/application/Bootstrap.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/remover.phtml",
-		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
 		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
 		"/C/Users/DuduPC/Desktop/musicas_posts.sql",
 		"/C/Users/DuduPC/Desktop/ouvirmusicasgospel.org.db",
 		"/C/Users/DuduPC/Desktop/wp-config.php",
 		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
 		"/C/Users/DuduPC/Desktop/ouvirmus_video_app.sql",
-		"/C/xampp/htdocs/sgcf/library/My/Acl.php",
 		"/C/xampp/htdocs/sgcf/library/My/Controller/Plugin/ACL.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/adicionar.phtml",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar.phtml",
@@ -276,7 +290,6 @@
 		"/C/xampp/htdocs/sgcf/application/layouts/scripts/login.phtml",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/admin/index.phtml",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/auth/login.phtml",
-		"/C/xampp/htdocs/sgcf/application/configs/application.ini",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/index/login.phtml",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/.htaccess",
 		"/C/Users/DuduPC/Google Drive/SGCF/login.html",
@@ -330,20 +343,7 @@
 		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO07.pro",
 		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO10.pro",
 		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/exercicios prolog/variosexemplos.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/LISTA.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/tarefa rep.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO(PODE SER Q CAIA NA PROVA).pro",
-		"/Users/marcoseduardo/Downloads/Prolog/missao2.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/exemplo prova.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/Ativ.Complementar002.doc",
-		"/Users/marcoseduardo/Downloads/Prolog/Ativ.Comp.ricardo.002.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO06.pro",
-		"/Users/marcoseduardo/Desktop/auditoria av2",
-		"/Users/marcoseduardo/Desktop/probabilidade direito e etica av2",
-		"/Users/marcoseduardo/Google Drive/SGCF/lista.txt",
-		"/Users/marcoseduardo/Documents/marcoseduardo/wp-config.php",
-		"/Users/marcoseduardo/Documents/marcoseduardo/wp-config-sample.php",
-		"/Users/marcoseduardo/Google Drive/SGCF/consultas-pendentes.html"
+		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/LISTA.pro"
 	],
 	"find":
 	{
@@ -361,6 +361,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"wp_nav_menu",
+			"ct_footer_nav",
+			"quem som",
+			"img",
+			"’",
+			"‘",
+			"ma",
+			"map",
+			"musicas",
+			"musicas Adhemar de Campos\nmusicas Aeroilis\nmusicas Alda Célia\nmusicas Alex Filho\nmusicas Alex Gonzaga\nmusicas Aline Barros\nmusicas Amy Grant\nmusicas André Valadão\nmusicas Asaph Borba\nmusicas Assíria Nascimento\nmusicas Audio Adrenaline\nmusicas Banda GerD\nmusicas Bride\nmusicas Brother Simion\nmusicas Bruna Karla\nmusicas Canto do Céu\nmusicas Carlinhos Félix\nmusicas Casa de Davi\nmusicas Cassiane\nmusicas Cassiane e Jairinho\nmusicas Chris Duran\nmusicas Clamor pelas Nações\nmusicas Clovis Ribeiro\nmusicas Com. Internacional da Zona Sul\nmusicas Comunidade de Nilópolis\nmusicas Corações Ardentes\nmusicas Cristiane Carvalho\nmusicas Cristina Mel\nmusicas Daniel Souza\nmusicas Déio Tambasco\nmusicas Delirious\nmusicas Diante do Trono\nmusicas Elaine de Jesus\nmusicas Ellas\nmusicas Eyshila\nmusicas FDH\nmusicas Fernanda Brum\nmusicas Fernanda Lara e Giordani Vidal\nmusicas Fernandinho\nmusicas Fogo e Glória\nmusicas Fruto Sagrado\nmusicas Geração Profética\nmusicas Gilson\nmusicas Groove Soul\nmusicas Grupo Projet’art\nmusicas Heloisa Rosa\nmusicas Ig. Bat. Nova Jerusalém\nmusicas J. Neto\nmusicas Jaci Velasquez\nmusicas Jamily\nmusicas Jars of Clay\nmusicas João Alexandre\nmusicas Jorge Camargo\nmusicas Jozyanne\nmusicas Kadoshi\nmusicas Kelly Lopes\nmusicas Kim\nmusicas Kleber Lucas\nmusicas Lauriete Rodrigues de Almeida\nmusicas Léa Mendonça\nmusicas Liz Lanne\nmusicas Logos\nmusicas Lovaê\nmusicas Ludmila Ferber\nmusicas Mara Lima\nmusicas Marcelo Aguiar\nmusicas Marco Aurélio\nmusicas Marcos Antonio\nmusicas Marcos Goes\nmusicas Marina de Oliveira\nmusicas Marquinhos Gomes\nmusicas Marquinhos Menezes\nmusicas Ministério Filhos do Homem\nmusicas Ministério Intimidade\nmusicas Ministério Koinonya de Louvor\nmusicas Ministério Ouvir e Crer\nmusicas Ministério Trio\nmusicas Ministério Unção Ágape\nmusicas Novo Som\nmusicas Oficina G3\nmusicas Patmus\nmusicas Paulo Rogério\nmusicas Petra\nmusicas PG\nmusicas Pra Ludmila Ferber\nmusicas Priscila Lisboa\nmusicas Promises\nmusicas Quatro por Um\nmusicas Rayssa e Ravel\nmusicas Resgate\nmusicas Salvador\nmusicas Sonicflood\nmusicas Soraya Moraes\nmusicas Switchfoot\nmusicas Take 6\nmusicas Vencedores por Cristo\nmusicas",
+			"#select_game",
+			".sd_title_2",
+			"sidebar_2_game_s",
 			"album",
 			"style=\"width: 295px; height: 250px; float: left;\"",
 			"echo",
@@ -458,6 +471,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"'",
+			"ouvir musicas",
+			"ouvir musicas ",
 			"usuario",
 			"class=\"player\" ",
 			"tipo",
