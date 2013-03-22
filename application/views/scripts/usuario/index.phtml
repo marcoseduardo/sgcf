@@ -6,8 +6,8 @@
       <div class="widget-control pull-right"> <a href="#" data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'adicionar'),null,true);?>"><i class="icon-plus"></i> Adicionar Usuário</a></li>
-          <li><a href="#"><i class="icon-remove"></i> Remover Usuário</a></li>
-          <li><a href="#"><i class="icon-pencil"></i> Editar Usuário</a></li>
+          <li><a href="#"><i class="icon-remove"></i> Remover Usuario</a></li>
+          <li><a href="#"><i class="icon-pencil"></i> Editar Usuario</a></li>
         </ul>
       </div>
     </div>
@@ -28,9 +28,8 @@
         <table class="table user-tbl">
           <thead>
             <tr>
-                </th>
               <th class="center"> ID </th>
-              <th class="center"> Usuário </th>
+              <th class="center"> Usuario </th>
               <th> Nome </th>
               <th> Info </th>
             </tr>
@@ -45,14 +44,12 @@
                   <button data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><span class="caret"></span></button>
                   <ul class="dropdown-menu">
                     <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'minhaconta', 'id'=>$usuario->id),null,true );
-                    ?>"><i class="icon-file"></i> Ver Detalhes</a></li>
+                    ?>"><i class="icon-file"></i> Informacoes </a></li>
                     <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'editar-conta', 'id'=>$usuario->id),null,true );
                     ?>"><i class="icon-edit"></i> Editar Conta</a></li>
                     <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'remover', 'id'=>$usuario->id),null,true );
-                    ?>"><i class="icon-trash"></i> Remover Usuário</a></li>
-                    <li><a href="#"><i class="icon-share-alt"></i> Send Mesage</a></li>
+                    ?>"><i class="icon-trash"></i> Remover Usuario </a></li>
                     <li class="divider"></li>
-                    <li><a href="#"><i class="icon-minus-sign"></i> Suspend User</a></li>
                   </ul>
                 </div></td>
             </tr>

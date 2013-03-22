@@ -48,17 +48,23 @@ class PacienteController extends Zend_Controller_Action
 			if ($form->isValid($formData)) {
 	
 				$nome_completo = $form->getValue('nome_completo');
-				$naturalidade = $form->getValue('naturalidade');
 				$profissao = $form->getValue('profissao');
+				$naturalidade = $form->getValue('naturalidade');
 				$nacionalidade = $form->getValue('nacionalidade');
 				$data_nasc = $form->getValue('data_nasc');
-				$endereco = $form->getValue('endereco');
-				$telefone = $form->getValue('telefone');
-				
+				$tel_fixo = $form->getValue('tel_fixo');
+				$tel_cel = $form->getValue('tel_cel');
+				$rua = $form->getValue('rua');
+				$numero = $form->getValue('numero');
+				$complemento = $form->getValue('complemento');
+				$cep = $form->getValue('cep');
+				$bairro = $form->getValue('bairro');
+				$cidade = $form->getValue('cidade');
+				$estado = $form->getValue('estado');
 				
 				$paciente = new Model_Paciente();
 	
-				$paciente->adicionarPaciente($nome_completo, $naturalidade, $profissao, $nacionalidade, $data_nasc, $endereco, $telefone);
+				$paciente->adicionarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $rua, $numero, $complemento, $cep, $bairro, $cidade, $estado);
 				$this->_helper->redirector('index');
 			} else {
 				$form->populate($formData);

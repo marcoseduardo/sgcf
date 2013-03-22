@@ -1,12 +1,12 @@
 <div class="span6" style="width:720px;">
   <div class="widget-block">
     <div class="widget-head">
-      <h5><i class="black-icons users"></i>Usuários</h5>
+      <h5><i class="black-icons users"></i>Pacientes</h5>
       <div class="widget-control pull-right"> <a href="#" data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'adicionar'),null,true);?>"><i class="icon-plus"></i> Adicionar Usuário</a></li>
-          <li><a href="#"><i class="icon-remove"></i> Remover Usuário</a></li>
-          <li><a href="#"><i class="icon-pencil"></i> Editar Usuário</a></li>
+          <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'adicionar'),null,true);?>"><i class="icon-plus"></i> Criar novo paciente </a></li>
+          <li><a href="#"><i class="icon-remove"></i> Remover paciente </a></li>
+          <li><a href="#"><i class="icon-pencil"></i> Editar paciente </a></li>
         </ul>
       </div>
     </div>
@@ -27,10 +27,9 @@
         <table class="table user-tbl">
           <thead>
             <tr>
-                </th>
               <th class="center"> ID </th>
-              <th class="center"> Paciente </th>
-              <th> Nome </th>
+              <th class="center"> Nome </th>
+              <th> Profissao </th>
               <th> Info </th>
             </tr>
           </thead>
@@ -38,20 +37,18 @@
             <?php foreach($this->pacientes as $paciente) : ?>
             <tr>
               <td class="center"><?php echo $this->escape($paciente->id_paciente);?></td>
-              <td class="center"><span class="user-position"><?php echo $this->escape($paciente->profissao);?></span></td>
-              <td><strong><?php echo $this->escape($paciente->nome_completo);?></strong></td>
+              <td class="center"><span class="user-position"><?php echo $this->escape($paciente->nome_completo);?></span></td>
+              <td><strong><?php echo $this->escape($paciente->profissao);?></strong></td>
               <td><div class="btn-group pull-right" style=" float: center; ">
                   <button data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><span class="caret"></span></button>
                   <ul class="dropdown-menu">
                     <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'minhaconta', 'id'=>$paciente->id_paciente),null,true );
-                    ?>"><i class="icon-file"></i> Ver Detalhes</a></li>
+                    ?>"><i class="icon-file"></i> Informacoes </a></li>
                     <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'editar-conta', 'id'=>$paciente->id_paciente),null,true );
-                    ?>"><i class="icon-edit"></i> Editar Conta</a></li>
+                    ?>"><i class="icon-edit"></i> Alterar paciente</a></li>
                     <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'remover', 'id'=>$paciente->id_paciente),null,true );
-                    ?>"><i class="icon-trash"></i> Remover Usuário</a></li>
-                    <li><a href="#"><i class="icon-share-alt"></i> Send Mesage</a></li>
+                    ?>"><i class="icon-trash"></i> Remover Paciente</a></li>
                     <li class="divider"></li>
-                    <li><a href="#"><i class="icon-minus-sign"></i> Suspend User</a></li>
                   </ul>
                 </div></td>
             </tr>
