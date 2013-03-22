@@ -63,7 +63,7 @@
         <ul class="nav">
           <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="nav-icon list"></i> Gerenciar <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Gerenciar Pacientes</a></li>
+              <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'index'),null,true);?>">Gerenciar Pacientes</a></li>
               <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'index'),null,true);?>">Gerenciar Usuários</a></li>
               
             </ul>

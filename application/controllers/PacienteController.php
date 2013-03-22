@@ -17,20 +17,19 @@ class PacienteController extends Zend_Controller_Action
     public function indexAction()
 	{
 		//Cria o paciente e passa para a view
-		$Paciente = new Model_Paciente();
-		$this->view->Paciente = $Paciente->fetchAll();
+		$paciente = new Model_Paciente();
+		$this->view->pacientes = $paciente->fetchAll();
 
-	
 	}
 	
 	
 	public function pacienteAction()
 	{
-	    $Paciente = new Model_Paciente();
+	    $paciente = new Model_Paciente();
 	    
 	    $id = $this->_getParam('id', 0);
 	    if ($id > 0) {
-	    	$this->view->user = $Paciente->getPaciente($id);
+	    	$this->view->user = $paciente->getPaciente($id);
 	    }
 	    else{
 	    	$this->view->user = $Paciente>getPaciente($Paciente->id);
@@ -57,13 +56,27 @@ class PacienteController extends Zend_Controller_Action
 				$telefone = $form->getValue('telefone');
 				
 				
-				$Paciente = new Model_Paciente();
+				$paciente = new Model_Paciente();
 	
-				$Paciente->adicionarPaciente($nome_completo, $naturalidade, $profissao, $nacionalidade, $data_nasc, $endereco, $telefone);
+				$paciente->adicionarPaciente($nome_completo, $naturalidade, $profissao, $nacionalidade, $data_nasc, $endereco, $telefone);
 				$this->_helper->redirector('index');
 			} else {
 				$form->populate($formData);
 			}
 		}
 	}
+	
+	public function minhacontaAction()
+	{
+	
+		//criando o objeto
+		$pacientes = new Model_Paciente();
+		//enviando para a view o ususario logado, passando a id direto na função
+	
+		$id = $this->_getParam('id', 0);
+		if ($id > 0) {
+			$this->view->paciente = $pacientes->getPaciente($id);
+		}
+	}
+	
 }

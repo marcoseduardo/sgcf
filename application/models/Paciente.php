@@ -5,14 +5,14 @@ Class Model_Paciente extends Zend_Db_Table {
 
 
 	protected $_name = 'paciente';
-	protected $_primary = 'id';
+	protected $_primary = 'id_paciente';
 
 
 
 	public function getPaciente($id){
 
 		$id = (int) $id;
-		$row = $this->fetchRow('id = ' . $id);
+		$row = $this->fetchRow('id_paciente = ' . $id);
 
 		if (! $row) {
 			throw new Exception("Could not find row $id");
