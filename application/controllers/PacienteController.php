@@ -7,9 +7,7 @@ class PacienteController extends Zend_Controller_Action
 	{
 		   if ( !Zend_Auth::getInstance()->hasIdentity() ) {
         return $this->_helper->redirector->goToRoute( array('controller' => 'auth'), null, true);
-    }
-   		//$usuario = Zend_Auth::getInstance()->getIdentity();
-        //$this->view->usuario = $usuario;
+    	}
 
 	}
 
@@ -54,7 +52,7 @@ class PacienteController extends Zend_Controller_Action
 				$data_nasc = $form->getValue('data_nasc');
 				$tel_fixo = $form->getValue('tel_fixo');
 				$tel_cel = $form->getValue('tel_cel');
-				$rua = $form->getValue('rua');
+				$logradouro = $form->getValue('logradouro');
 				$numero = $form->getValue('numero');
 				$complemento = $form->getValue('complemento');
 				$cep = $form->getValue('cep');
@@ -64,7 +62,7 @@ class PacienteController extends Zend_Controller_Action
 				
 				$paciente = new Model_Paciente();
 	
-				$paciente->adicionarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $rua, $numero, $complemento, $cep, $bairro, $cidade, $estado);
+				$paciente->adicionarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado);
 				$this->_helper->redirector('index');
 			} else {
 				$form->populate($formData);
@@ -72,7 +70,56 @@ class PacienteController extends Zend_Controller_Action
 		}
 	}
 	
-	public function minhacontaAction()
+	public function editarpacienteAction(){
+	
+		// pega o ID do usuario logado para informar na alteração dos dados
+		
+	    $form = new Form_Paciente();
+	    $form->submit->setLabel('Save');
+	    $this->view->form = $form;
+		if ($this->getRequest()->isPost()) {
+			$formData = $this->getRequest()->getPost();
+			if ($form->isValid($formData)) {
+				$id_paciente = $pacientes->id_paciente;
+				$nome_completo = $form->getValue('nome_completo');
+				$profissao = $form->getValue('profissao');
+				$naturalidade = $form->getValue('naturalidade');
+				$nacionalidade = $form->getValue('nacionalidade');
+				$data_nasc = $form->getValue('data_nasc');
+				$tel_fixo = $form->getValue('tel_fixo');
+				$tel_cel = $form->getValue('tel_cel');
+				$logradouro = $form->getValue('logradouro');
+				$numero = $form->getValue('numero');
+				$complemento = $form->getValue('complemento');
+				$cep = $form->getValue('cep');
+				$bairro = $form->getValue('bairro');
+				$cidade = $form->getValue('cidade');
+				$estado = $form->getValue('estado');
+	
+	
+				$pacientes = new Model_Paciente();
+				$pacientes->editarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado);
+	
+				//redireciona pra Action Index
+				//$this->_helper->redirector('index');
+	
+				//redireciona pro controller admin
+				return $this->_helper->redirector->goToRoute( array('controller' => 'admin'), null, true);
+	
+	
+			} else {
+				$form->populate($formData);
+			}
+		}  else {
+			$usuario = Zend_Auth::getInstance()->getIdentity();
+			$usuarios = new Model_Usuario();
+			//$form->setDefaults($usuarios->getUsuario($id));
+			$form->populate($usuarios->getUsuario($usuario->id));
+	
+		}
+	}
+	
+	public function informacoesAction()
 	{
 	
 		//criando o objeto

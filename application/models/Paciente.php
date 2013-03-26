@@ -22,16 +22,16 @@ Class Model_Paciente extends Zend_Db_Table {
 	}
 
 	
-	public function adicionarPaciente ($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $rua, $numero, $complemento, $cep, $bairro, $cidade, $estado)
+	public function adicionarPaciente ($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado)
 	{
-		$data = array('nome_completo' => $nome_completo, 'profissao' => $profissao, 'naturalidade' => $naturalidade, 'nacionalidade' => $nacionalidade, 'data_nasc' => $data_nasc, 'tel_cel' => $tel_cel, 'tel_fixo' =>$tel_fixo, 'rua' => $rua, 'numero' => $numero, 'complemento' => $complemento, 'cep' => $cep, 'bairro' => $bairro, 'cidade' => $cidade, 'estado' => estado);
+		$data = array('nome_completo' => $nome_completo, 'profissao' => $profissao, 'naturalidade' => $naturalidade, 'nacionalidade' => $nacionalidade, 'data_nasc' => $data_nasc, 'tel_cel' => $tel_cel, 'tel_fixo' =>$tel_fixo, 'logradouro' => $logradouro, 'numero' => $numero, 'complemento' => $complemento, 'cep' => $cep, 'bairro' => $bairro, 'cidade' => $cidade, 'estado' => estado);
 		 
 		$this->insert($data);
 	}
 
-	public function editarPaciente($id, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $rua, $numero, $complemento, $cep, $bairro, $cidade, $estado)
+	public function editarPaciente($id, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado)
 	{
-		$data = array('nome_completo' => $nome_completo, 'profissao' => $profissao, 'naturalidade' => $naturalidade, 'nacionalidade' => $nacionalidade, 'data_nasc' => $data_nasc, 'tel_cel' => $tel_cel, 'tel_fixo' =>$tel_fixo, 'rua' => $rua, 'numero' => $numero, 'complemento' => $complemento, 'cep' => $cep, 'bairro' => $bairro, 'cidade' => $cidade, 'estado' => estado);
+		$data = array('nome_completo' => $nome_completo, 'profissao' => $profissao, 'naturalidade' => $naturalidade, 'nacionalidade' => $nacionalidade, 'data_nasc' => $data_nasc, 'tel_cel' => $tel_cel, 'tel_fixo' =>$tel_fixo, 'logradouro' => $logradouro, 'numero' => $numero, 'complemento' => $complemento, 'cep' => $cep, 'bairro' => $bairro, 'cidade' => $cidade, 'estado' => estado);
 		$this->update($data, 'id_paciente = ' . (int) $id);
 	}
 	

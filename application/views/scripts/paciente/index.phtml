@@ -5,8 +5,6 @@
       <div class="widget-control pull-right"> <a href="#" data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'adicionar'),null,true);?>"><i class="icon-plus"></i> Criar novo paciente </a></li>
-          <li><a href="#"><i class="icon-remove"></i> Remover paciente </a></li>
-          <li><a href="#"><i class="icon-pencil"></i> Editar paciente </a></li>
         </ul>
       </div>
     </div>
@@ -29,8 +27,8 @@
             <tr>
               <th class="center"> ID </th>
               <th class="center"> Nome </th>
-              <th> Profissao </th>
-              <th> Info </th>
+              <th> Telefone </th>
+              <th> Opcoes </th>
             </tr>
           </thead>
           <tbody>
@@ -38,13 +36,13 @@
             <tr>
               <td class="center"><?php echo $this->escape($paciente->id_paciente);?></td>
               <td class="center"><span class="user-position"><?php echo $this->escape($paciente->nome_completo);?></span></td>
-              <td><strong><?php echo $this->escape($paciente->profissao);?></strong></td>
+              <td><?php echo $this->escape($paciente->tel_fixo);?></td>
               <td><div class="btn-group pull-right" style=" float: center; ">
                   <button data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><span class="caret"></span></button>
                   <ul class="dropdown-menu">
-                    <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'minhaconta', 'id'=>$paciente->id_paciente),null,true );
+                    <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'informacoes', 'id'=>$paciente->id_paciente),null,true );
                     ?>"><i class="icon-file"></i> Informacoes </a></li>
-                    <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'editar-conta', 'id'=>$paciente->id_paciente),null,true );
+                    <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'editarPaciente', 'id'=>$paciente->id_paciente),null,true );
                     ?>"><i class="icon-edit"></i> Alterar paciente</a></li>
                     <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'remover', 'id'=>$paciente->id_paciente),null,true );
                     ?>"><i class="icon-trash"></i> Remover Paciente</a></li>
