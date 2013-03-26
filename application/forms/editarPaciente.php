@@ -4,7 +4,7 @@ class Form_Paciente extends Zend_form{
 
     public function init(){
     
-		
+		//teste
         $nome_completo = new Zend_Form_Element_Text('nome_completo');
         $nome_completo->setLabel('nome_completo')
         ->setRequired(true)
