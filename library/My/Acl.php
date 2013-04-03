@@ -16,7 +16,6 @@ class My_Acl extends Zend_Acl
         //$this->add(new Zend_Acl_Resource('auth'));
         $this->add(new Zend_Acl_Resource('admin'));
         $this->add(new Zend_Acl_Resource('Usuario'));
-        $this->add(new Zend_Acl_Resource('search_example'));
 
         $this->add(new Zend_Acl_Resource('index'));
  
@@ -26,7 +25,6 @@ class My_Acl extends Zend_Acl
         $this->allow('aluno', 'index');
         $this->allow('aluno', 'Usuario');
         $this->allow('aluno', 'admin');
-        $this->allow('aluno', 'search_example');
 
         // Allow professors to access logout and the index action from the professor controller
         //$this->allow('professor', 'auth');

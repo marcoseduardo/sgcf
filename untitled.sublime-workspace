@@ -127,16 +127,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 150.0,
 		"selected_items":
 		[
 			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
 				"php",
 				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
 			],
 			[
 				"css",
@@ -199,7 +199,7 @@
 				"Set Syntax: Python"
 			]
 		],
-		"width": 440.0
+		"width": 636.0
 	},
 	"console":
 	{
@@ -216,12 +216,34 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/sgcf/application/models/Paciente.php",
+		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/gospel-novo/index.html",
+		"/C/Users/DuduPC/Desktop/seo-pressor_v5/seo-pressor.php",
+		"/C/Users/DuduPC/Desktop/wp-links-opml.php",
+		"/C/Users/DuduPC/Desktop/wp-config.php",
+		"/C/Users/DuduPC/Desktop/wp-atom.php",
+		"/C/Users/DuduPC/Desktop/seo-pressor_v5_nulled/readme.txt",
+		"/C/Users/DuduPC/Desktop/seo-pressor_v5_nulled/seo-pressor.php",
+		"/C/Users/DuduPC/Desktop/seo-pressor_v5_nulled/db/tables.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/tpls/blocks-header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/tpls/blocks-displayblogandsidebar.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/tpls/blocks-displayblog.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/tpls/blog-twocolumns.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/gospel/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/tpls/blocks-postitem.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/silicon-wordpress-responsive-theme/tpls/blocks-portfolioitem.php",
+		"/C/xampp/htdocs/sgcf/library/My/Acl.php",
+		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
+		"/C/Users/DuduPC/Desktop/addineyeV2.html",
 		"/C/xampp/htdocs/sgcf/application/configs/application.ini",
 		"/C/xampp/htdocs/sgcf/application/modules/kosearch-master/controllers/search_example.php",
 		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveis2/single-imoveis.php",
 		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveis2/search-imoveis.php",
 		"/C/xampp/htdocs/sgcf/application/modules/kosearch/views/search_example.php",
-		"/C/xampp/htdocs/sgcf/library/My/Acl.php",
 		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveisglobal/single-imoveis.php",
 		"/C/Users/DuduPC/Desktop/wp-config-sample.php",
 		"/C/Users/DuduPC/Desktop/ufc TV.html",
@@ -243,14 +265,11 @@
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar-conta.phtml",
 		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
-		"/C/xampp/htdocs/sgcf/application/models/Usuario.php",
 		"/C/xampp/htdocs/sgcf/application/Bootstrap.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/remover.phtml",
 		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
 		"/C/Users/DuduPC/Desktop/musicas_posts.sql",
 		"/C/Users/DuduPC/Desktop/ouvirmusicasgospel.org.db",
-		"/C/Users/DuduPC/Desktop/wp-config.php",
-		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
 		"/C/Users/DuduPC/Desktop/ouvirmus_video_app.sql",
 		"/C/xampp/htdocs/sgcf/library/My/Controller/Plugin/ACL.php",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/adicionar.phtml",
@@ -324,26 +343,7 @@
 		"/Users/marcoseduardo/Downloads/musicas_posts.sql",
 		"/Users/marcoseduardo/Pictures/passagens/backlinks passagens.txtr",
 		"/Users/marcoseduardo/semprelinda/untitled",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/category.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/comments.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/footer.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/functions.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/single.php",
-		"/Applications/MAMP/htdocs/wordpress/index.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-config.php",
-		"/Applications/MAMP/htdocs/maxmag_v1.04/maxmag1.04/maxmag/semprelinda/style.css",
-		"/Applications/MAMP/htdocs/sharedcount.php",
-		"/Users/marcoseduardo/Documents/sharedcount.php",
-		"/Users/marcoseduardo/Downloads/keyword_ideas_20121217_0910660.csv",
-		"/Users/marcoseduardo/SEO/Rock Solid SEO/20_PR_8_Plus/+ sites .edu dofollow.txt",
-		"/Users/marcoseduardo/Desktop/empreendedorismo digital-UAISEO.txt",
-		"/Users/marcoseduardo/Google Drive/TCC1/Slides/DW DUDU.txt",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/Trabalho - Jeffrey Garcia Quaresma av2.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/Prova - Jeffrey Garcia Quaresma AV2.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO07.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/EXEMPLO10.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/exercicios prolog/variosexemplos.pro",
-		"/Users/marcoseduardo/Downloads/Prolog/LABORATORIO DE INTELIGENCIA COMPUTACIONAL/LISTA.pro"
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/semprelinda/category.php"
 	],
 	"find":
 	{
@@ -361,6 +361,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rua",
+			"echo",
+			"img",
+			"-",
+			"8",
+			"5",
+			"6",
+			"7",
+			"4",
+			"0",
+			",",
+			"3",
+			"9",
+			"2",
+			"1",
+			"href=",
 			"wp_nav_menu",
 			"ct_footer_nav",
 			"quem som",
@@ -471,6 +487,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"logradouro",
+			"",
+			"rel=\"nofollow\" href=",
 			"'",
 			"ouvir musicas",
 			"ouvir musicas ",
