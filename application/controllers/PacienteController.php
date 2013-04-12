@@ -72,8 +72,7 @@ class PacienteController extends Zend_Controller_Action
 	
 	public function editarpacienteAction(){
 	
-		// pega o ID do usuario logado para informar na alteração dos dados
-		
+				
 	    $form = new Form_Paciente();
 	    $form->submit->setLabel('Save');
 	    $this->view->form = $form;
@@ -100,23 +99,27 @@ class PacienteController extends Zend_Controller_Action
 				$pacientes = new Model_Paciente();
 				$pacientes->editarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado);
 	
-				//redireciona pra Action Index
-				//$this->_helper->redirector('index');
-	
-				//redireciona pro controller admin
-				return $this->_helper->redirector->goToRoute( array('controller' => 'admin'), null, true);
-	
-	
-			} else {
-				$form->populate($formData);
+				
 			}
-		}  else {
-			$usuario = Zend_Auth::getInstance()->getIdentity();
-			$usuarios = new Model_Usuario();
-			//$form->setDefaults($usuarios->getUsuario($id));
-			$form->populate($usuarios->getUsuario($usuario->id));
-	
 		}
+	}
+	
+	public function removerpacienteAction()
+	{
+		if ($this->getRequest()->isPost()) {
+			$del = $this->getRequest()->getPost('del');
+			if ($del == 'Sim') {
+				$id = $this->getRequest()->getPost('id_paciente');
+				$pacientes = new Model_Paciente();
+				$pacientes->removerPaciente;
+			}
+			return $this->_helper->redirector->goToRoute( array('controller' => 'admin'), null, true);
+		} else {
+			$id = $this->_getParam('id_paciente', 0);
+			$pacientes = new Model_Paciente();
+			$this->view->user = $pacientes->getPaciente($id);
+		}
+	
 	}
 	
 	public function informacoesAction()
