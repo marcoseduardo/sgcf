@@ -1,13 +1,10 @@
-
 <div class="span6" style="width:720px;">
   <div class="widget-block">
     <div class="widget-head">
-      <h5><i class="black-icons users"></i>Usuários</h5>
+      <h5><i class="black-icons users"></i>Pacientes</h5>
       <div class="widget-control pull-right"> <a href="#" data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'adicionar'),null,true);?>"><i class="icon-plus"></i> Adicionar Usuário</a></li>
-          <li><a href="#"><i class="icon-remove"></i> Remover Usuario</a></li>
-          <li><a href="#"><i class="icon-pencil"></i> Editar Usuario</a></li>
+          <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'adicionar'),null,true);?>"><i class="icon-plus"></i> Criar novo paciente </a></li>
         </ul>
       </div>
     </div>
@@ -29,26 +26,26 @@
           <thead>
             <tr>
               <th class="center"> ID </th>
-              <th class="center"> Usuario </th>
-              <th> Nome </th>
-              <th> Info </th>
+              <th class="center"> Nome </th>
+              <th> Telefone </th>
+              <th> Opcoes </th>
             </tr>
           </thead>
           <tbody>
-            <?php foreach($this->usuarios as $usuario) : ?>
+            <?php foreach($this->pacientes as $paciente) : ?>
             <tr>
-              <td class="center"><?php echo $this->escape($usuario->id);?></td>
-              <td class="center"><span class="user-position"><?php echo $this->escape($usuario->tipo);?></span></td>
-              <td><strong><?php echo $this->escape($usuario->nome_completo);?></strong></td>
+              <td class="center"><?php echo $this->escape($paciente->id_paciente);?></td>
+              <td class="center"><span class="user-position"><?php echo $this->escape($paciente->nome_completo);?></span></td>
+              <td><?php echo $this->escape($paciente->tel_fixo);?></td>
               <td><div class="btn-group pull-right" style=" float: center; ">
                   <button data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-cog"></i><span class="caret"></span></button>
                   <ul class="dropdown-menu">
-                    <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'minhaconta', 'id'=>$usuario->id),null,true );
+                    <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'informacoes', 'id'=>$paciente->id_paciente),null,true );
                     ?>"><i class="icon-file"></i> Informacoes </a></li>
-                    <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'editar-conta', 'id'=>$usuario->id),null,true );
-                    ?>"><i class="icon-edit"></i> Editar Conta</a></li>
-                    <li><a href="<?php echo $this->url(array('controller'=>'Usuario','action'=>'remover', 'id'=>$usuario->id),null,true );
-                    ?>"><i class="icon-trash"></i> Remover Usuario </a></li>
+                    <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'editarPaciente', 'id'=>$paciente->id_paciente),null,true );
+                    ?>"><i class="icon-edit"></i> Alterar paciente</a></li>
+                    <li><a href="<?php echo $this->url(array('controller'=>'Paciente','action'=>'remover', 'id'=>$paciente->id_paciente),null,true );
+                    ?>"><i class="icon-trash"></i> Remover Paciente</a></li>
                     <li class="divider"></li>
                   </ul>
                 </div></td>
