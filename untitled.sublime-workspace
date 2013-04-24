@@ -127,9 +127,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 265.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"forma",
+				"Format Code"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
@@ -199,7 +211,7 @@
 				"Set Syntax: Python"
 			]
 		],
-		"width": 464.0
+		"width": 636.0
 	},
 	"console":
 	{
@@ -216,6 +228,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/DuduPC/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
+		"/C/xampp/htdocs/sgcf/application/controllers/PacienteController.php",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/paciente/index.phtml",
+		"/C/xampp/htdocs/sgcf/application/views/scripts/paciente/editar.phtml",
+		"/C/xampp/htdocs/sgcf/application/forms/editarPaciente.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/auth.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/simpleimage.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/config.php",
@@ -302,7 +320,6 @@
 		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/index.php",
 		"/C/Users/DuduPC/Desktop/page.css",
 		"/C/Users/DuduPC/Desktop/wp-pass.php",
-		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
 		"/C/Users/DuduPC/Desktop/base.css",
 		"/C/Users/DuduPC/Desktop/framework.css",
 		"/C/Downloads/Software/LeagueofLegends.exe",
@@ -338,12 +355,7 @@
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/styles/style.css",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/header.php",
 		"/C/xampp/htdocs/sgcf/.git/COMMIT_EDITMSG",
-		"/C/xampp/htdocs/sgcf/.git/FETCH_HEAD",
-		"/C/xampp/htdocs/sgcf/.git/description",
-		"/C/xampp/htdocs/sgcf/.git/gitk.cache",
-		"/C/xampp/htdocs/sgcf/.git/ORIG_HEAD",
-		"/C/xampp/htdocs/sgcf/.git/config",
-		"/C/xampp/htdocs/sgcf/.git/index"
+		"/C/xampp/htdocs/sgcf/.git/FETCH_HEAD"
 	],
 	"find":
 	{
@@ -351,7 +363,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -361,6 +373,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<?php\n\nclass PacienteController extends Zend_Controller_Action\n{\n\n	public function init()\n	{\n		   if ( !Zend_Auth::getInstance()->hasIdentity() ) {\n        return $this->_helper->redirector->goToRoute( array('controller' => 'auth'), null, true);\n    	}\n\n	}\n\n    public function indexAction()\n	{\n		//Cria o paciente e passa para a view\n		$paciente = new Model_Paciente();\n		$this->view->pacientes = $paciente->fetchAll();\n	}\n	\n	\n	public function pacienteAction()\n	{\n	    $paciente = new Model_Paciente();\n	    \n	    $id = $this->_getParam('id', 0);\n	    if ($id > 0) {\n	    	$this->view->user = $paciente->getPaciente($id);\n	    }\n	    else{\n	    	$this->view->user = $Paciente>getPaciente($Paciente->id);\n	    }\n	    \n	}\n	\n	\n	public function adicionarAction()\n	{\n		$form = new Form_adicionarPaciente();\n		$form->submit->setLabel('Adicionar');\n		$this->view->form = $form;\n		if ($this->getRequest()->isPost()) {\n			$formData = $this->getRequest()->getPost();\n			if ($form->isValid($formData)) {\n	\n				$nome_completo = $form->getValue('nome_completo');\n				$profissao = $form->getValue('profissao');\n				$naturalidade = $form->getValue('naturalidade');\n				$nacionalidade = $form->getValue('nacionalidade');\n				$data_nasc = $form->getValue('data_nasc');\n				$tel_fixo = $form->getValue('tel_fixo');\n				$tel_cel = $form->getValue('tel_cel');\n				$logradouro = $form->getValue('logradouro');\n				$numero = $form->getValue('numero');\n				$complemento = $form->getValue('complemento');\n				$cep = $form->getValue('cep');\n				$bairro = $form->getValue('bairro');\n				$cidade = $form->getValue('cidade');\n				$estado = $form->getValue('estado');\n				\n				$paciente = new Model_Paciente();\n	\n				$paciente->adicionarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado);\n				$this->_helper->redirector('index');\n			} else {\n				$form->populate($formData);\n			}\n		}\n	}\n	\n	public function editarAction(){\n	\n				\n	    $form = new Form_editarPaciente();\n		$form->submit->setLabel('Editar');\n	    $this->view->form = $form;\n		if ($this->getRequest()->isPost()) {\n			$formData = $this->getRequest()->getPost();\n			if ($form->isValid($formData)) {\n				$id_paciente = $pacientes->id_paciente;\n				$nome_completo = $form->getValue('nome_completo');\n				$profissao = $form->getValue('profissao');\n				$naturalidade = $form->getValue('naturalidade');\n				$nacionalidade = $form->getValue('nacionalidade');\n				$data_nasc = $form->getValue('data_nasc');\n				$tel_fixo = $form->getValue('tel_fixo');\n				$tel_cel = $form->getValue('tel_cel');\n				$logradouro = $form->getValue('logradouro');\n				$numero = $form->getValue('numero');\n				$complemento = $form->getValue('complemento');\n				$cep = $form->getValue('cep');\n				$bairro = $form->getValue('bairro');\n				$cidade = $form->getValue('cidade');\n				$estado = $form->getValue('estado');\n	\n	\n				$pacientes = new Model_Paciente();\n				$pacientes->editarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado);\n	\n				return $this->_helper->redirector->goToRoute( array('controller' => 'Paciente'), null, true);\n				} else {\n                $form->populate($formData);\n            }\n			\n		}\n		else {\n	            $id = $this->_getParam('id', 0);\n				$pacientes = new Model_Paciente();\n                $form->populate($pacientes->getPaciente($id));\n            \n        }\n	}\n	\n	public function removerpacienteAction()\n	{\n		if ($this->getRequest()->isPost()) {\n			$del = $this->getRequest()->getPost('del');\n			if ($del == 'Sim') {\n				$id = $this->getRequest()->getPost('id_paciente');\n				$pacientes = new Model_Paciente();\n				$pacientes->removerPaciente;\n			}\n			return $this->_helper->redirector->goToRoute( array('controller' => 'admin'), null, true);\n		} else {\n			$id = $this->_getParam('id_paciente', 0);\n			$pacientes = new Model_Paciente();\n			$this->view->user = $pacientes->getPaciente($id);\n		}\n	\n	}\n	\n	public function informacoesAction()\n		{\n\n		//criando o objeto\n		$pacientes = new Model_Paciente();\n		//enviando para a view o ususario logado, passando a id direto na função\n\n		$id = $this->_getParam('id', 0);\n		if ($id > 0) {\n		$this->view->paciente = $pacientes->getPaciente($id);\n		}\n		}\n\n		}\n",
 			"like_gate",
 			" ",
 			"	",
@@ -487,8 +500,7 @@
 			"7",
 			"6",
 			"5",
-			"4",
-			"3"
+			"4"
 		],
 		"highlight": true,
 		"in_selection": false,

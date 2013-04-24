@@ -1,16 +1,19 @@
 <?php 
 
-class Form_Paciente extends Zend_form{
+class Form_editarPaciente extends Zend_form{
 
     public function init(){
     
-		//teste
+	 $this->setName('paciente');
+        $id_paciente = new Zend_Form_Element_Hidden('id_paciente');
+        $id_paciente->addFilter('Int');
+        
         $nome_completo = new Zend_Form_Element_Text('nome_completo');
         $nome_completo->setLabel('nome_completo')
-        ->setRequired(true)
-        ->addFilter('StripTags')
-        ->addFilter('StringTrim')
-        ->addValidator('NotEmpty');
+            ->setRequired(true)
+            ->addFilter('StripTags')
+            ->addFilter('StringTrim')
+            ->addValidator('NotEmpty');
         
         $profissao = new Zend_Form_Element_Text('profissao');
         $profissao->setLabel('profissao')
@@ -47,7 +50,7 @@ class Form_Paciente extends Zend_form{
         $tel_fixo->setLabel('tel_fixo')
         ->setRequired(true)
         ->addFilter('int');
-         
+       
         $logradouro = new Zend_Form_Element_text('logradouro');
         $logradouro->setLabel('logradouro')
         ->setRequired(true)
@@ -71,7 +74,7 @@ class Form_Paciente extends Zend_form{
         $cep->setLabel('cep')
         ->setRequired(true)
         ->addFilter('int');
-        
+                
         $bairro = new Zend_Form_Element_text('bairro');
         $bairro->setLabel('bairro')
         ->setRequired(true)
@@ -85,13 +88,18 @@ class Form_Paciente extends Zend_form{
         ->addFilter('StripTags')
         ->addFilter('StringTrim')
         ->addValidator('NotEmpty');
-         
+                   
         $estado = new Zend_Form_Element_text('estado');
         $estado->setLabel('estado')
         ->setRequired(true)
         ->addFilter('StripTags')
         ->addFilter('StringTrim')
         ->addValidator('NotEmpty');
+                   
+        $submit = new Zend_Form_Element_Submit('submit');
+        $submit->setAttrib('id', 'submitbutton');
+        $this->addElements(array($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, 
+        $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado, $submit));   
         
         
     }
