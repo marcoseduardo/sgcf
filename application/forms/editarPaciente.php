@@ -4,7 +4,7 @@ class Form_editarPaciente extends Zend_form{
 
     public function init(){
     
-	 $this->setName('paciente');
+	    $this->setName('paciente');
         $id_paciente = new Zend_Form_Element_Hidden('id_paciente');
         $id_paciente->addFilter('Int');
         

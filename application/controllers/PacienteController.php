@@ -71,7 +71,7 @@ class PacienteController extends Zend_Controller_Action
 	public function editarAction(){
 
 		
-		$form = new Form_editarPaciente();
+		$form = new Form_editarPaciente(array('class' => 'myClass'));
 		$form->submit->setLabel('Editar');
 		$this->view->form = $form;
 		if ($this->getRequest()->isPost()) {
@@ -111,20 +111,20 @@ class PacienteController extends Zend_Controller_Action
 		}
 	}
 
-	public function removerpacienteAction()
+	public function removerAction()
 	{
 		if ($this->getRequest()->isPost()) {
 			$del = $this->getRequest()->getPost('del');
 			if ($del == 'Sim') {
-				$id = $this->getRequest()->getPost('id_paciente');
+				$id = $this->getRequest()->getPost('id');
 				$pacientes = new Model_Paciente();
-				$pacientes->removerPaciente;
+				$pacientes->removerPaciente($id);
 			}
 			return $this->_helper->redirector->goToRoute( array('controller' => 'admin'), null, true);
 		} else {
-			$id = $this->_getParam('id_paciente', 0);
+			$id = $this->_getParam('id', 0);
 			$pacientes = new Model_Paciente();
-			$this->view->user = $pacientes->getPaciente($id);
+			$this->view->paciente = $pacientes->getPaciente($id);
 		}
 
 	}

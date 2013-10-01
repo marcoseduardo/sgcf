@@ -8,6 +8,8 @@
 		protected $_primary = 'id';
 		protected $_role;
 
+		protected $_dependentTables = array('Agenda');
+
 
 		public function getUsuario($id){
 

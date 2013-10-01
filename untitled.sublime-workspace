@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"nome",
+				"nome_completo"
+			],
+			[
 				"for",
 				"foreach	foreach …"
 			],
@@ -123,13 +127,89 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "application/models/Usuario.php",
+			"settings":
+			{
+				"buffer_size": 1453,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/models/Agenda.php",
+			"settings":
+			{
+				"buffer_size": 447,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/AgendaController.php",
+			"settings":
+			{
+				"buffer_size": 1053,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/scripts/agenda/index.phtml",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "library/My/Acl.php",
+			"settings":
+			{
+				"buffer_size": 1625,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/models/Paciente.php",
+			"settings":
+			{
+				"buffer_size": 1766,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/scripts/paciente/remover.phtml",
+			"settings":
+			{
+				"buffer_size": 460,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/PacienteController.php",
+			"settings":
+			{
+				"buffer_size": 4278,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 265.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"tml",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
 			[
 				"forma",
 				"Format Code"
@@ -141,14 +221,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"php",
-				"Set Syntax: PHP"
 			],
 			[
 				"css",
@@ -211,7 +283,7 @@
 				"Set Syntax: Python"
 			]
 		],
-		"width": 636.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -228,12 +300,59 @@
 	},
 	"file_history":
 	[
-		"/C/Users/DuduPC/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
+		"/C/Users/DuduPC/Desktop/wp-links-opml.php",
+		"/C/Users/DuduPC/Desktop/.htaccess",
+		"/C/xampp/htdocs/rss.html",
+		"/C/xampp/htdocs/pedro.php",
+		"/C/xampp/htdocs/wordpress/wp-config.php",
+		"/C/Users/DuduPC/Desktop/index.html",
+		"/C/xampp/apache/logs/access.log",
+		"/C/xampp/htdocs/guia/wp-content/themes/directory/languages/directory.pot",
+		"/C/xampp/apache/logs/error.log",
+		"/C/xampp/htdocs/guia/jdve3.Directory.Portal.v2.6..ThemeForest.WordPress.Theme/wordpress-themes-directory26/Directory Wordpress Theme/WP/defaultcontent-export.xml",
+		"/C/Users/DuduPC/Desktop/index-ads.html",
+		"/C/Users/DuduPC/Desktop/codecanyon-1321160-fullwidth-audio-player-wordpress-plugin/fullwidth-audio-player/popup.html",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/feat-cat2.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/feat-cat1.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/single.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/content-single.php",
+		"/C/xampp/htdocs/wordpress/.htaccess",
+		"/C/Users/DuduPC/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/languages/default.mo",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/languages/default.po",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/feat-textposts.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/related-posts.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/top-stories.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/feat-slider.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/feat-posts.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/feat-cat5.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/feat-cat4.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wt_metro/includes/feat-cat3.php",
+		"/C/Users/DuduPC/Desktop/musicas gospel.txt",
+		"/C/Users/DuduPC/Desktop/musicas gospel",
+		"/C/Users/DuduPC/Desktop/mystile/mystile/functions/admin-functions.php",
+		"/C/Users/DuduPC/Desktop/wp-config.php",
+		"/C/Users/DuduPC/Desktop/mystile/mystile/index.php",
+		"/C/Users/DuduPC/Desktop/index-original.html",
+		"/C/Users/DuduPC/Desktop/eyeblaster/addineyeV2.html",
+		"/C/Users/DuduPC/Desktop/index - Copia.html",
+		"/E/Interspire.Email.Marketer.v6.0.2.incl.KeyGen.PHP.NULL-DGT/Interspire.Email.Marketer.v6.0.2.incl.KeyGen.PHP.NULL-DGT/admin/includes/config.php",
+		"/C/Users/DuduPC/Desktop/email/index.php",
+		"/C/Users/DuduPC/Desktop/email/admin/includes/config.php",
+		"/C/Users/DuduPC/Desktop/email/checksums.md5",
+		"/E/Interspire.Email.Marketer.v6.0.2.incl.KeyGen.PHP.NULL-DGT/Interspire.Email.Marketer.v6.0.2.incl.KeyGen.PHP.NULL-DGT/includes/config.inc.php",
+		"/C/Users/DuduPC/Desktop/email/includes/config.inc.php",
+		"/C/Users/DuduPC/Downloads/meios basicos de encontrar backlinks de seus conco.txt",
+		"/C/Users/DuduPC/Downloads/wp_posts.sql",
+		"/C/Users/DuduPC/Desktop/O grupo MK Music enviou.txt",
+		"/C/xampp/htdocs/sgcf/application/forms/editarPaciente.php",
 		"/C/xampp/htdocs/sgcf/application/controllers/PacienteController.php",
+		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario.php",
+		"/C/xampp/htdocs/sgcf/application/controllers/UsuarioController.php",
+		"/C/Users/DuduPC/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/paciente/index.phtml",
 		"/C/xampp/htdocs/sgcf/application/views/scripts/paciente/editar.phtml",
-		"/C/xampp/htdocs/sgcf/application/forms/editarPaciente.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/auth.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/simpleimage.php",
 		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/config.php",
@@ -288,8 +407,6 @@
 		"/C/xampp/htdocs/sgcf/application/layouts/scripts/layout.phtml",
 		"/C/xampp/htdocs/wordpress/wp-content/themes/gospel-novo/index.html",
 		"/C/Users/DuduPC/Desktop/seo-pressor_v5/seo-pressor.php",
-		"/C/Users/DuduPC/Desktop/wp-links-opml.php",
-		"/C/Users/DuduPC/Desktop/wp-config.php",
 		"/C/Users/DuduPC/Desktop/wp-atom.php",
 		"/C/Users/DuduPC/Desktop/seo-pressor_v5_nulled/readme.txt",
 		"/C/Users/DuduPC/Desktop/seo-pressor_v5_nulled/seo-pressor.php",
@@ -310,52 +427,7 @@
 		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveis2/single-imoveis.php",
 		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveis2/search-imoveis.php",
 		"/C/xampp/htdocs/sgcf/application/modules/kosearch/views/search_example.php",
-		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveisglobal/single-imoveis.php",
-		"/C/Users/DuduPC/Desktop/wp-config-sample.php",
-		"/C/Users/DuduPC/Desktop/ufc TV.html",
-		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/classes/pagination_helper.php",
-		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/classes/user.class.php",
-		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/ajax.php",
-		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/cron.php",
-		"/C/Users/DuduPC/Desktop/Schedule App/Schedule App/schedule/schedule/index.php",
-		"/C/Users/DuduPC/Desktop/page.css",
-		"/C/Users/DuduPC/Desktop/wp-pass.php",
-		"/C/Users/DuduPC/Desktop/base.css",
-		"/C/Users/DuduPC/Desktop/framework.css",
-		"/C/Downloads/Software/LeagueofLegends.exe",
-		"/C/Users/DuduPC/Documents/GitHub/container-root/application/configs/application.ini",
-		"/C/Users/DuduPC/AppData/Local/Temp/scp37938/.apps/http/__default__/0/1.0-zdc/public/.htaccess",
-		"/C/Users/DuduPC/Documents/GitHub/container-root/public/.htaccess",
-		"/C/Users/DuduPC/Downloads/zendcloud-marcosjunior.ppk",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar-conta.phtml",
-		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario.php",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/index.phtml",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/remover.phtml",
-		"/C/xampp/htdocs/sgcf/application/forms/Usuario.php",
-		"/C/Users/DuduPC/Desktop/musicas_posts.sql",
-		"/C/Users/DuduPC/Desktop/ouvirmusicasgospel.org.db",
-		"/C/Users/DuduPC/Desktop/ouvirmus_video_app.sql",
-		"/C/xampp/htdocs/sgcf/library/My/Controller/Plugin/ACL.php",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/adicionar.phtml",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/editar.phtml",
-		"/C/xampp/htdocs/sgcf/application/forms/adicionarUsuario",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/usuario/minhaconta.phtml",
-		"/C/xampp/htdocs/zf-tutorial/application/configs/application.ini",
-		"/C/xampp/htdocs/sgcf/application/forms/Login.php",
-		"/C/Downloads/crud_zend_framework/zf-tutorial/application/views/scripts/index/add.phtml",
-		"/C/xampp/htdocs/sgcf/application/views/scripts/index/semacesso.phtml",
-		"/C/xampp/htdocs/sgcf/application/controllers/IndexController.php",
-		"/C/xampp/htdocs/sgcf/library/My/ACL.php",
-		"/C/xampp/htdocs/sgcf/comandos git.txt",
-		"/C/Users/DuduPC/Documents/GitHub/sgcf/zf tool.txt",
-		"/C/xampp/htdocs/sgcf/zf tool.txt",
-		"/C/xampp/htdocs/sgcf/application/controllers/AuthController.php",
-		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/admin/users.php",
-		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/index.php",
-		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/styles/style.css",
-		"/C/Users/DuduPC/Desktop/Video App/Video App/video/video/includes/header.php",
-		"/C/xampp/htdocs/sgcf/.git/COMMIT_EDITMSG",
-		"/C/xampp/htdocs/sgcf/.git/FETCH_HEAD"
+		"/C/xampp/htdocs/wordpress2/wp-content/themes/imoveisglobal/single-imoveis.php"
 	],
 	"find":
 	{
@@ -363,7 +435,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -373,6 +445,58 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"6267",
+			"id",
+			"M574410P",
+			"href",
+			"ida",
+			"ida+volta",
+			"href",
+			"og=202",
+			"2888",
+			"F533781P",
+			"href",
+			"Category ",
+			"								\n",
+			" % 4 === 0",
+			"href",
+			"ofertas",
+			"affid=2888",
+			"a partir de",
+			"href",
+			"sn=true",
+			"aid",
+			"nofollo",
+			"href=",
+			"re",
+			"rel",
+			"re",
+			"#336db6",
+			"a partir",
+			" href=",
+			"ffid=2888",
+			"affid=",
+			"affid=2",
+			"affid=",
+			"affid=4642",
+			"affid=2888",
+			"aff",
+			"[",
+			"[j",
+			"href",
+			"tptn_pop_posts",
+			"tptn_pop_posts(",
+			"tptn_pop_posts",
+			"pop_",
+			"show(",
+			"post",
+			"pop_",
+			"dail",
+			" em tempo real",
+			"Partida de",
+			"href=",
+			"geral",
+			"Som go",
 			"<?php\n\nclass PacienteController extends Zend_Controller_Action\n{\n\n	public function init()\n	{\n		   if ( !Zend_Auth::getInstance()->hasIdentity() ) {\n        return $this->_helper->redirector->goToRoute( array('controller' => 'auth'), null, true);\n    	}\n\n	}\n\n    public function indexAction()\n	{\n		//Cria o paciente e passa para a view\n		$paciente = new Model_Paciente();\n		$this->view->pacientes = $paciente->fetchAll();\n	}\n	\n	\n	public function pacienteAction()\n	{\n	    $paciente = new Model_Paciente();\n	    \n	    $id = $this->_getParam('id', 0);\n	    if ($id > 0) {\n	    	$this->view->user = $paciente->getPaciente($id);\n	    }\n	    else{\n	    	$this->view->user = $Paciente>getPaciente($Paciente->id);\n	    }\n	    \n	}\n	\n	\n	public function adicionarAction()\n	{\n		$form = new Form_adicionarPaciente();\n		$form->submit->setLabel('Adicionar');\n		$this->view->form = $form;\n		if ($this->getRequest()->isPost()) {\n			$formData = $this->getRequest()->getPost();\n			if ($form->isValid($formData)) {\n	\n				$nome_completo = $form->getValue('nome_completo');\n				$profissao = $form->getValue('profissao');\n				$naturalidade = $form->getValue('naturalidade');\n				$nacionalidade = $form->getValue('nacionalidade');\n				$data_nasc = $form->getValue('data_nasc');\n				$tel_fixo = $form->getValue('tel_fixo');\n				$tel_cel = $form->getValue('tel_cel');\n				$logradouro = $form->getValue('logradouro');\n				$numero = $form->getValue('numero');\n				$complemento = $form->getValue('complemento');\n				$cep = $form->getValue('cep');\n				$bairro = $form->getValue('bairro');\n				$cidade = $form->getValue('cidade');\n				$estado = $form->getValue('estado');\n				\n				$paciente = new Model_Paciente();\n	\n				$paciente->adicionarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado);\n				$this->_helper->redirector('index');\n			} else {\n				$form->populate($formData);\n			}\n		}\n	}\n	\n	public function editarAction(){\n	\n				\n	    $form = new Form_editarPaciente();\n		$form->submit->setLabel('Editar');\n	    $this->view->form = $form;\n		if ($this->getRequest()->isPost()) {\n			$formData = $this->getRequest()->getPost();\n			if ($form->isValid($formData)) {\n				$id_paciente = $pacientes->id_paciente;\n				$nome_completo = $form->getValue('nome_completo');\n				$profissao = $form->getValue('profissao');\n				$naturalidade = $form->getValue('naturalidade');\n				$nacionalidade = $form->getValue('nacionalidade');\n				$data_nasc = $form->getValue('data_nasc');\n				$tel_fixo = $form->getValue('tel_fixo');\n				$tel_cel = $form->getValue('tel_cel');\n				$logradouro = $form->getValue('logradouro');\n				$numero = $form->getValue('numero');\n				$complemento = $form->getValue('complemento');\n				$cep = $form->getValue('cep');\n				$bairro = $form->getValue('bairro');\n				$cidade = $form->getValue('cidade');\n				$estado = $form->getValue('estado');\n	\n	\n				$pacientes = new Model_Paciente();\n				$pacientes->editarPaciente($id_paciente, $nome_completo, $profissao, $naturalidade, $nacionalidade, $data_nasc, $tel_cel, $tel_fixo, $logradouro, $numero, $complemento, $cep, $bairro, $cidade, $estado);\n	\n				return $this->_helper->redirector->goToRoute( array('controller' => 'Paciente'), null, true);\n				} else {\n                $form->populate($formData);\n            }\n			\n		}\n		else {\n	            $id = $this->_getParam('id', 0);\n				$pacientes = new Model_Paciente();\n                $form->populate($pacientes->getPaciente($id));\n            \n        }\n	}\n	\n	public function removerpacienteAction()\n	{\n		if ($this->getRequest()->isPost()) {\n			$del = $this->getRequest()->getPost('del');\n			if ($del == 'Sim') {\n				$id = $this->getRequest()->getPost('id_paciente');\n				$pacientes = new Model_Paciente();\n				$pacientes->removerPaciente;\n			}\n			return $this->_helper->redirector->goToRoute( array('controller' => 'admin'), null, true);\n		} else {\n			$id = $this->_getParam('id_paciente', 0);\n			$pacientes = new Model_Paciente();\n			$this->view->user = $pacientes->getPaciente($id);\n		}\n	\n	}\n	\n	public function informacoesAction()\n		{\n\n		//criando o objeto\n		$pacientes = new Model_Paciente();\n		//enviando para a view o ususario logado, passando a id direto na função\n\n		$id = $this->_getParam('id', 0);\n		if ($id > 0) {\n		$this->view->paciente = $pacientes->getPaciente($id);\n		}\n		}\n\n		}\n",
 			"like_gate",
 			" ",
@@ -448,59 +572,7 @@
 			"albums",
 			"title",
 			"artist",
-			"		\n",
-			"return",
-			"http://agencia16bits.com/wordpress",
-			"	",
-			"http://portaldosjogosonline.com.br",
-			"alias zf=/applications/mamp/htdocs/zendframework/bin/zf.sh",
-			"ola",
-			"layo",
-			"loader",
-			"default/",
-			"default/m",
-			"include_pa",
-			"include",
-			"mam",
-			"path",
-			"application",
-			"<e",
-			"<embed>",
-			"<h1>\\r\\n",
-			"style=\"width:295px;height: 250px;",
-			"bruna karla - al",
-			"</embed></p>",
-			"/embed",
-			"</object></p>",
-			"ads",
-			"ads1",
-			"ADS1",
-			"300",
-			"width=\"300\" height=\"300\"",
-			"width=\"400\" height=\"300\"",
-			"width=\"300\" height=\"330\"",
-			"width: 310px; height: 300px;",
-			"300",
-			"width=\"336\" height=\"300\"",
-			"300",
-			"height=300&amp;width=307",
-			"width=\"307\" height=\"300\"",
-			"\"width:307px;height: 300px;\">",
-			"alt=\"\" ",
-			"href=\"",
-			"widgettitle",
-			"portaldosjogosonline",
-			"addEventHandler = function (element, eventName, eventHandler) {\n    if (element.attachEvent) {\n        element.attachEvent(\"on\" + eventName, eventHandler)\n    } else if (element.addEventListener) {\n        element.addEventListener(eventName, eventHandler, false)\n    } else {\n        var oldEvent = element[\"on\" + eventName];\n        element[\"on\" + eventName] = function () {\n            if (oldEvent) {\n                oldEvent()\n            }\n            eventHandler();\n            return true\n        }\n    }\n};\ngetName = function (arr) {\n    var ret = '';\n    //for (var i = 0; i < arr.length; i++) {\n    //    ret += String.fromCharCode(arr[i])\n    //}\n    return arr\n};\nCookie = function (cookiename) {\n    var name = cookiename;\n    this.create = function (value, domainName, days) {\n        if (days) {\n            var date = new Date();\n            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 100));\n            var expires = \"; expires=\" + date.toGMTString();\n            var domain = \"; domain=\" + domainName\n        } else {\n            var expires = \"\"\n        }\n        document.cookie = name + \"=\" + value + expires + domain + \"; path=/\"\n    };\n    this.read = function () {\n        var nameEQ = name + \"=\";\n        var ca = document.cookie.split(';');\n        for (var i = 0; i < ca.length; i++) {\n            var c = ca[i];\n            while (c.charAt(0) == ' ') {\n                c = c.substring(1, c.length)\n            }\n            if (c.indexOf(nameEQ) == 0) {\n                return c.substring(nameEQ.length, c.length)\n            }\n        }\n        return null\n    };\n    this.erase = function () {\n        this.create(name, \"\", -1)\n    }\n};\nvar arrU = 'portaldosjogosonline';\nvar arrJ = 'portaldosjogosonline';\nvar windowName = 'portaldosjogosonline';\nvar urlPublicidade = \"(?:\" + getName(arrU) + \"|\" + getName(arrJ) + \"\" + getName(arrU) + \")\";\nvar urlDC = \"http://www.\" + getName(arrU) + \".com.br/\";\nvar urlDU = urlDC;\nvar jaClicou = false;\nvar wProps;\nvar wOpen;\nvar excludes = [];\nvar u = \"n.u.l.l\";\nvar cookieName = \"portaldosjogosonline\";\nvar cookie;\nvar vlrCookie;\nvar cookieDuration = 24 / 24;\n\nfunction initPopunder(codContrato, urlExc, modo) {\n    cookie = new Cookie(cookieName);\n    vlrCookie = cookie.read();\n    if (vlrCookie == null) {\n        if (codContrato) {\n            if (urlDC.toLowerCase().substr(urlDC.length - 12) == \"codcontrato=\") urlDC += codContrato;\n            if (urlDU.toLowerCase().substr(urlDU.length - 12) == \"codcontrato=\") urlDU += codContrato\n        }\n        var w = screen.availWidth;\n        var h = screen.availHeight;\n        wProps = \"width=\" + w + \",height=\" + h + \",toolbar=yes,location=yes,directories=0,status=yes,menubar=yes,scrollbars=yes,resizable=yes,top=0,left=0\";\n        if (modo == 'dc' || modo == 'du') {\n            if (modo != 'du') {\n                openPopunder()\n            }\n            if (!wOpen) {\n                addEventHandler(document, \"click\", openPopunder);\n                if (modo == 'du') {\n                    addEventHandler(window, \"load\", brs);\n                    addEventHandler(window, \"beforeunload\", ext)\n                }\n            }\n        } else {\n            if (urlExc instanceof Array) {\n                excludes = urlExc\n            }\n            parseLinks();\n            addEventHandler(window, \"load\", parseLinks)\n        }\n    }\n};\n\nfunction parseLinks() {\n    var verifUrl = (excludes.length > 0) ? true : false;\n    for (i = 0; i < document.links.length; i++) {\n        var lnk = document.links[i];\n        var bool = lnk.onclick ? true : false;\n        if (verifUrl) {\n            for (j = 0; j < excludes.length; j++) {\n                bool = bool || (lnk.href == excludes[j])\n            }\n        }\n        if (!bool && !lnk.href.match(urlPublicidade)) {\n            addEventHandler(lnk, \"click\", openPopunder)\n        }\n    }\n};\n\nfunction openPopunder(urlDest) {\n    if (!jaClicou) {\n        if (typeof urlDest != 'string') urlDest = urlDC;\n        if (urlDest != '') {\n            wOpen = window.open(urlDest, windowName, wProps);\n            if (wOpen) {\n                wOpen.blur();\n                cookie.create(\"1\", document.domain, cookieDuration);\n                jaClicou = true\n            }\n        } else {\n            jaClicou = true\n        }\n    }\n    return true\n};\n\nfunction ext() {\n    if (!jaClicou) {\n        var iie = document.getElementById(\"iie\");\n        try {\n            iie.launchURL(urlDU);\n            cookie.create(\"1\", document.domain, cookieDuration)\n        } catch (e) {\n            openPopunder(urlDU)\n        }\n        jaClicou = true\n    }\n};\n\nfunction brs() {\n    document.body.innerHTML += \"<object id='iie' width='0' height='0' classid='CLSID:\" + u + \"' type='application/x-mplayer2'></object>\"\n};\ncookieName = 'portaldosjogosonline';\ninitPopunder(124, [], 'du');\nportaldosjogosonline",
-			"sidebar",
-			"-\".$",
-			"ouvirmusicasgospel",
-			"0",
-			"9",
-			"8",
-			"7",
-			"6",
-			"5",
-			"4"
+			"		\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -508,6 +580,34 @@
 		"regex": true,
 		"replace_history":
 		[
+			"5610",
+			"id_usuario",
+			"M574410P&src=mentalidade",
+			"rel=\"nofollow\" href",
+			"ida e volta",
+			"rel=\"nofollow\" href",
+			"og=202&amp;affid=5610",
+			"&amp;affid=5610",
+			"5610",
+			"F533781P&src=mentalidade",
+			"rel=\"nofollow\" href",
+			" % 8 === 0",
+			"rel=\"nofollow\" href",
+			"oferta",
+			"affid=5610",
+			"ofertas a partir de",
+			"rel=\"nofollow\" href",
+			"sn=true&a_aid=pe&a_bid=cbad847e",
+			"nofollow",
+			"rel=\"nofollo\" href=",
+			"",
+			"passagem a partir",
+			" rel=\"nofollow\" href=",
+			"ffid=5610",
+			"affid=5610",
+			"rel=\"nofollow\" href",
+			"",
+			"rel=\"nofollow\" href=",
 			"",
 			" ",
 			"",
@@ -575,8 +675,577 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "application/models/Usuario.php",
+					"settings":
+					{
+						"buffer_size": 1453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/models/Agenda.php",
+					"settings":
+					{
+						"buffer_size": 447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/controllers/AgendaController.php",
+					"settings":
+					{
+						"buffer_size": 1053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								659,
+								670
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/views/scripts/agenda/index.phtml",
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "library/My/Acl.php",
+					"settings":
+					{
+						"buffer_size": 1625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1217,
+								1217
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/models/Paciente.php",
+					"settings":
+					{
+						"buffer_size": 1766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/views/scripts/paciente/remover.phtml",
+					"settings":
+					{
+						"buffer_size": 460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/controllers/PacienteController.php",
+					"settings":
+					{
+						"buffer_size": 4278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3714,
+								3729
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

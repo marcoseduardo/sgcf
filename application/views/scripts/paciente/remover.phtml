@@ -1,10 +1,11 @@
 <?php $this->headTitle()->prepend('Remover Paciente'); ?>
 
-<p>Tem certeza de que deseja apagar <?php echo $this->escape($this->pacientes['nome_completo']);?> ?</p>
+<p>Tem certeza de que deseja apagar <?php echo $this->escape($this->paciente['nome_completo']);?> ?</p>
 
 <form action="<?php echo $this->url(array('action' => 'remover'));?>" method="post">
 	<div>
-		<input type="hidden" name="id" value="<?php echo $this->pacientes['id_paciente'];?>" /> 
-		<input type="submit" name="del" value="Sim" /> <input type="submit" name="del" value="Não" />
+		<input type="hidden" name="id" value="<?php echo $this->paciente['id_paciente'];?>" /> 
+		<input type="submit" name="del" value="Sim" /> 
+		<input type="submit" name="del" value="Não" />
 	</div>
 </form>
