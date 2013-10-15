@@ -3,15 +3,17 @@
 class AgendaController extends Zend_Controller_Action
 {
 
-public function init()
-{
-}
+        public function init()
+        {
+                if ( !Zend_Auth::getInstance()->hasIdentity() ) {
+                        return $this->_helper->redirector->goToRoute( array('controller' => 'auth'), null, true);
+                }
 
+        }
 
-
-public function indexAction(){
+        public function indexAction(){
 		
-		$user = new Model_Usuario();
+	$user = new Model_Usuario();
         $paciente = new Model_Paciente();
         $agenda = new Model_Agenda();
 
@@ -40,7 +42,7 @@ public function indexAction(){
 		
 
 
-}
+        }
 
 }
 ?>

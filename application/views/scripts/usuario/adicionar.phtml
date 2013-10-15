@@ -1,6 +1,58 @@
 <?php
 $this->headTitle()->prepend('Adicionar Usuário'); 
 
-	echo $this->form ;
+	//echo $this->form ;
+
+?>
 
 
+  <div class="span6">
+            <div class="widget-content">
+              <div class="widget-box">
+                <form  class=" form-horizontal well ucase" action"<?php echo $this->form->getAction() ?>" method="<?php echo $this->form->getMethod()?>">
+
+                  <fieldset>
+                    <legend>Adicionar Usuário</legend>
+                    <fieldset id="address-form">
+                      <div class="control-group">
+                        <label class="control-label"><?= $this->form->login->getLabel() ?></label>
+                        <div class="controls">
+					<?= $this->form->login ?></div>
+					
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label"><?= $this->form->nome_completo->getLabel() ?> </label>
+                        <div class="controls">
+                          <?= $this->form->nome_completo ?>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label"><?= $this->form->senha->getLabel() ?></label>
+                        <div class="controls">
+                          <?= $this->form->senha ?>
+
+                        </div>
+                      </div>
+                      <div class="control-group">
+                      <label class="control-label">Tipo</label>
+                      <div class="controls">
+                        <label class="radio">
+                         <?= $this->form->tipo ?>
+                      
+                          <p class="help-block"> <strong>Nota:</strong> Preencher todos os campos. </p>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </fieldset>
+                  <span class="extend-bar"><a id="minus2" href="#" class="remove-element" title="Remove" style="display: none;">Remove</a>
+                  </span>
+                  <div class="form-actions">
+                    <?= $this->form->submit ?>
+                    <button type="submit" class="btn btn-info">Save changes</button>
+                    <button class="btn btn-warning">Cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>

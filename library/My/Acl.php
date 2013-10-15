@@ -13,7 +13,6 @@ class My_Acl extends Zend_Acl
         // Add some resources in the form controller::action
         $this->add(new Zend_Acl_Resource('error'));
         $this->add(new Zend_Acl_Resource('auth'));
-        //$this->add(new Zend_Acl_Resource('auth'));
         $this->add(new Zend_Acl_Resource('admin'));
         $this->add(new Zend_Acl_Resource('Usuario'));
         $this->add(new Zend_Acl_Resource('agenda'));

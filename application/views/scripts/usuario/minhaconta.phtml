@@ -1,6 +1,42 @@
 <?php $this->headTitle()->prepend('Minha Conta'); ?>
 
 
-<h2>ID: <?php echo $this->user['id']; ?></h2>
-<h2>Nome: <?php echo $this->user['nome_completo']; ?></h2>
-<h2>Login: <?php echo $this->user['login']; ?></h2>	
+<div class="span6" style="align:center;">
+            <div class="widget-content">
+              <div class="widget-box">
+                <fieldset>
+                    <legend>Informações do Usuário</legend>
+                    <fieldset id="address-form">
+                      <div class="control-group">
+                        <label class="control-label">Login:</label>
+                        <div class="controls">
+                        	<span class="input-xlarge uneditable-input"><?php echo $this->user['login']; ?></span>
+					</div>
+					
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Nome Completo:</label>
+                        <div class="controls">
+                           	<span class="input-xlarge uneditable-input"><?php echo $this->user['nome_completo']; ?></span>
+
+                        </div>
+                      </div>
+                     <div class="control-group">
+                      <label class="control-label">Tipo:</label>
+                      <div class="controls">
+                        <label class="radio">
+                        
+                         <label class="radio">
+                          <input type="radio" checked="" value="option1" name="optionsRadios">
+                           <?php echo $this->user['tipo']; ?></label>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </fieldset>
+                  <span class="extend-bar"><a id="minus2" href="#" class="remove-element" title="Remove" style="display: none;">Remove</a>
+                  </span>
+                 
+              </div>
+            </div>
+          </div>
+        </div>

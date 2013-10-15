@@ -20,9 +20,13 @@ public function init()
 
 	public function indexAction()
 	{
+
 	    return $this->_helper->redirector('login');
 	}
 	public function loginAction(){
+
+    $auth = Zend_Auth::getInstance();
+    $auth->clearIdentity();
 
     $this->_flashMessenger = $this->_helper->getHelper('FlashMessenger');
     $this->view->messages = $this->_flashMessenger->getMessages();
