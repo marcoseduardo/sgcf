@@ -49,11 +49,6 @@ class Form_adicionarUsuario extends Zend_Form{
             'Errors'
             
             ));
-
-        
-
-
-
         $this->setDecorators(array(
             'FormElements',
             'Form',
