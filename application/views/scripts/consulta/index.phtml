@@ -1,0 +1,17 @@
+<h3>Lista de Consultas</h3>
+<?php foreach($this->consultas as $consulta): ?>
+<p><?php echo $consulta->id_consulta; ?></p>
+<?php endforeach; ?>
+
+<h3>Lista de Agendamento</h3>
+<?php foreach($this->agendas as $agenda): ?>
+
+<p>Nome:<?php echo $agenda->nome_professor; ?></p>
+<p>Data:<?php echo $agenda->data_agenda; ?></p>
+
+<?php endforeach; ?>
+
+<p>Consulta: <?php echo $this->consultas->id_consulta; ?>, 
+<p>Professor: <?php echo $this->nome_professor; ?>, 
+<p>Data: <?php echo $this->data_agenda; ?>,
+
